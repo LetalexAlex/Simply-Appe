@@ -51,22 +51,14 @@ else
 	end
 end
 
-t.OffCommand = function()
-	for player in ivalues(Players) do
-		if SL[ToEnumShortString(player)].PlayerStatistics then
-			SL[ToEnumShortString(player)].PlayerStatistics.songHighscore = nil
-		end
-	end
-end
-
 -- -----------------------------------------------------------------------
 -- First, add actors that would be the same whether 1 or 2 players are joined.
 
 -- code for triggering a screenshot and animating a "screenshot" texture
 t[#t+1] = LoadActor("./Shared/ScreenshotHandler.lua")
 
--- code for immediately retrying the song that was just played
-t[#t+1] = LoadActor("./Shared/RestartHandler.lua")
+-- code for non-normal exits, such as restarting the song or entering practice mode
+t[#t+1] = LoadActor("./Shared/ExitHandler.lua")
 
 -- the title of the song and its graphical banner, if there is one
 t[#t+1] = LoadActor("./Shared/TitleAndBanner.lua")

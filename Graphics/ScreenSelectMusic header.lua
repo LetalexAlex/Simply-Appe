@@ -17,7 +17,7 @@ local SecondsToHMMSS = SecondsToHMMSS or function(s)
 end
 
 local UpdateTimer = function(af, dt)
-	local seconds = GetTimeSinceStart() - SL.Global.TimeAtSessionStart
+	local seconds = GetTimeSinceStart() - (SL.Global.TimeAtSessionStart or GetTimeSinceStart())
 	local totalTime = 0
 	local anyPlayer = "P1"
 	if #SL["P1"].Stages.Stats == 0 then anyPlayer = "P2" end
@@ -100,6 +100,7 @@ if PREFSMAN:GetPreference("EventMode") then
 			self:zoom( SL_WideScale(0.3, 0.36) )
 			self:y( SL_WideScale(3.15, 3.5) / self:GetZoom() )
 			self:diffusealpha(0):x(_screen.cx + SL_WideScale(150, 200))
+			self:visible(false)
 		end,
 		OnCommand=function(self)
 			self:sleep(0.1):decelerate(0.33):diffusealpha(1)

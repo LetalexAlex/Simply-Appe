@@ -16,8 +16,8 @@ end
 
 SL_CustomPrefs.Get = function()
 	 -- emojis are our lingua franca for the 21st century
-	local visualStyleChoices = { "❤", "↖", "🐻", "🦆", "😺", "🎃", "🌈", "⭐", "🤔", "🌀", "ITG" }
-	local visualStyleValues  = { "Hearts", "Arrows", "Bears", "Ducks", "Cats", "Spooky", "Gay", "Stars", "Thonk", "Technique", "ITG" }
+	local visualStyleChoices = { "❤", "↖", "🐻", "🦆", "😺", "🎃", "🌈", "⭐", "🤔", "🌀", "ITG"}
+	local visualStyleValues  = { "Hearts", "Arrows", "Bears", "Ducks", "Cats", "Spooky", "Gay", "Stars", "Thonk", "Technique", "ITG"}
 
 	local year = Year()
 	local month = MonthOfYear()+1
@@ -329,6 +329,7 @@ SL_CustomPrefs.Get = function()
 			Choices =  { THEME:GetString("ThemePrefs","Yes"), THEME:GetString("ThemePrefs", "No") },
 			Values  = { true, false }
 		},
+
 		QRLogin = {
 			Default = "Sometimes",
 			Choices = {
@@ -337,6 +338,12 @@ SL_CustomPrefs.Get = function()
 				THEME:GetString("ThemePrefs", "Never"),
 			},
 			Values = { "Always", "Sometimes", "Never" }
+		},
+
+		EnableOnlineLobbies = {
+			Default = false,
+			Choices =  { THEME:GetString("ThemePrefs","Yes"), THEME:GetString("ThemePrefs", "No") },
+			Values  = { true, false }
 		},
 
 		-- - - - - - - - - - - - - - - - - - - -

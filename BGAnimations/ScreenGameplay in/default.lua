@@ -7,8 +7,8 @@ local SongNumberInCourse = 0
 local SongsInCourse
 local style = ThemePrefs.Get("VisualStyle")
 local assets = {
-	splode     = THEME:GetPathG("", "_VisualStyles/" .. style .. "/GameplayIn splode"),
-	minisplode = THEME:GetPathG("", "_VisualStyles/" .. style .. "/GameplayIn minisplode")
+	splode     = THEME:GetPathG("", "_VisualStyles/"..style.."/GameplayIn splode"),
+	minisplode = THEME:GetPathG("", "_VisualStyles/"..style.."/GameplayIn minisplode")
 }
 
 if IsSpooky() then
@@ -26,40 +26,27 @@ if GAMESTATE:IsCourseMode() then
 elseif SL.Global.GameplayReloadCheck then
 	SL.Global.Stages.Restarts = SL.Global.Stages.Restarts + 1
 	text = "RESTART " .. tostring(SL.Global.Stages.Restarts)
-elseif string.find(string.upper(GAMESTATE:GetCurrentSong():GetGroupName()), "STAMINA RPG 8") then
-	text = "Stamina RPG 8"
+elseif string.find(string.upper(GAMESTATE:GetCurrentSong():GetGroupName()), "STAMINA RPG 9") then
+	text = "Stamina RPG 9"
 	
-elseif string.find(string.upper(GAMESTATE:GetCurrentSong():GetGroupName()), "ITL ONLINE 2024") then
-	text = "ITL Online 2024"
+elseif string.find(string.upper(GAMESTATE:GetCurrentSong():GetGroupName()), "ITL ONLINE 2025") then
+	text = "ITL Online 2025"
 
 elseif not PREFSMAN:GetPreference("EventMode") then
-	local isLastStage = PREFSMAN:GetPreference("SongsPerPlay") <= SL.Global.Stages.PlayedThisGame + 1
-
-	if isLastStage then
-		text = THEME:GetString("Stage", "FinalStage")
-	else
-		text = THEME:GetString("Stage", "Stage") .. " " .. tostring(SL.Global.Stages.PlayedThisGame + 1)
-	end
 	text = THEME:GetString("Stage", "Stage") .. " " .. tostring(SL.Global.Stages.PlayedThisGame + 1)
 else
-	local current_song = GAMESTATE:GetCurrentSong()
-	local group_name = current_song:GetGroupName()
-	if string.find(string.lower(group_name), "eurocup 2024") then
-		text = "Eurocup 2024"
-	else
-		text = THEME:GetString("Stage", "Event")
-	end
+	text = THEME:GetString("Stage", "Event")
 end
 
 InitializeMeasureCounterAndModsLevel(SongNumberInCourse)
 
 -------------------------------------------------------------------------
 
-local af = Def.ActorFrame {}
+local af = Def.ActorFrame{}
 
-af[#af + 1] = Def.ActorFrame {
+af[#af+1] = Def.ActorFrame{
 	-- no need to keep drawing these during gameplay; set visible(false) once they're done and save a few clock cycles
-	OnCommand = function(self)
+	OnCommand=function(self)
 		if SL.Global.GameplayReloadCheck then
 			-- don't bother animating these visuals if ScreenGameplay was just reloaded by a mod chart
 			-- just jump directly to hiding this lead in
@@ -68,53 +55,32 @@ af[#af + 1] = Def.ActorFrame {
 			self:sleep(2):queuecommand("Hide")
 		end
 	end,
-	HideCommand = function(self)
+	HideCommand=function(self)
 		self:visible(false)
 		SL.Global.GameplayReloadCheck = true
 	end,
-	OffCommand = function(self)
+	OffCommand=function(self)
 		SL.Global.GameplayReloadCheck = false
 	end,
 
-	Def.Quad {
-		InitCommand = function(self) self:diffuse(Color.Black):Center():FullScreen() end,
-		OnCommand = function(self) self:sleep(1.4):accelerate(0.6):diffusealpha(0) end
+	Def.Quad{
+		InitCommand=function(self) self:diffuse(Color.Black):Center():FullScreen() end,
+		OnCommand=function(self) self:sleep(1.4):accelerate(0.6):diffusealpha(0) end
 	},
 
-	LoadActor(assets.splode) .. {
-		InitCommand = function(self) self:diffuse(GetCurrentColor(true)):Center():rotationz(10):zoom(0):diffusealpha(0.9) end,
-		OnCommand = function(self) self:sleep(0.4):linear(0.6):rotationz(0):zoom(1.1):diffusealpha(0) end
+	LoadActor(assets.splode)..{
+		InitCommand=function(self) self:diffuse(GetCurrentColor(true)):Center():rotationz(10):zoom(0):diffusealpha(0.9) end,
+		OnCommand=function(self) self:sleep(0.4):linear(0.6):rotationz(0):zoom(1.1):diffusealpha(0) end
 	},
-	LoadActor(assets.splode) .. {
-		InitCommand = function(self)
-			self:diffuse(GetCurrentColor(true)):Center():rotationy(180):rotationz(-10):zoom(0)
-				:diffusealpha(0.8)
-		end,
-		OnCommand = function(self) self:sleep(0.4):decelerate(0.6):rotationz(0):zoom(1.3):diffusealpha(0) end
+	LoadActor(assets.splode)..{
+		InitCommand=function(self) self:diffuse(GetCurrentColor(true)):Center():rotationy(180):rotationz(-10):zoom(0):diffusealpha(0.8) end,
+		OnCommand=function(self) self:sleep(0.4):decelerate(0.6):rotationz(0):zoom(1.3):diffusealpha(0) end
 	},
-	LoadActor(assets.minisplode) .. {
-		InitCommand = function(self) self:diffuse(GetCurrentColor(true)):Center():rotationz(10):zoom(0) end,
-		OnCommand = function(self) self:sleep(0.4):decelerate(0.8):rotationz(0):zoom(0.9):diffusealpha(0) end
+	LoadActor(assets.minisplode)..{
+		InitCommand=function(self) self:diffuse(GetCurrentColor(true)):Center():rotationz(10):zoom(0) end,
+		OnCommand=function(self) self:sleep(0.4):decelerate(0.8):rotationz(0):zoom(0.9):diffusealpha(0) end
 	}
 }
-
-for player in ivalues(GAMESTATE:GetHumanPlayers()) do
-	af[#af+1] = LoadFont(ThemePrefs.Get("ThemeFont") .. " Normal")..{
-		Text=GetPlayerOptionsString(player),
-		InitCommand=function(self)
-			self:y(_screen.h - 20):valign(1)
-
-			if player == PLAYER_1 then
-				self:x(20):halign(0)
-			else
-				self:x(_screen.w - 20):halign(1)
-			end
-		end,
-		OnCommand=function(self)
-			self:diffusealpha(1):sleep(1):accelerate(0.33):diffusealpha(0)
-		end,
-	}
-end
 
 af[#af+1] = LoadFont(ThemePrefs.Get("ThemeFont") .. " Bold")..{
 	Text=text,
@@ -157,4 +123,3 @@ elseif #audio_files > 0 then
 end
 
 return af
-

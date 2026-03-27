@@ -10,6 +10,23 @@ local song_stats = ("%i %s %i %s, %i %s"):format(
 	THEME:GetString("ScreenTitleMenu", "courses")
 )
 
+-- Checks if there is later version than curVersion
+-- both latestVersion and curVersion are tables of numbers, e.g. {5,0,12}
+function IsNewer(latestVersion, curVersion)
+	for i = 1, math.max(#latestVersion, #curVersion) do
+		local latestPart = latestVersion[i] or 0
+		local curPart = curVersion[i] or 0
+
+		if latestPart > curPart then
+			return true
+		elseif latestPart < curPart then
+			return false
+		end
+	end
+
+	return false
+end
+
 -- -----------------------------------------------------------------------
 -- People commonly have multiple copies of SL installed – sometimes different forks with unique features
 -- sometimes due to concern that an update will cause them to lose data, sometimes accidentally, etc.

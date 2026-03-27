@@ -122,8 +122,9 @@ GenerateBreakdownText = function(pn, minimization_level)
 		return (total_stream / total_measures)
 	end
 	
+	local displayBpms = GetDisplayBPMs(pn)
 	-- Experimental by Zankoku - See if a reasonable breakdown can be generated from 32nds or 24ths
-	if GetDisplayBPMs(pn)[1] == GetDisplayBPMs(pn)[2] then
+	if displayBpms and displayBpms[1] == displayBpms[2] then
 		segments = GetStreamSequences(SL[pn].Streams.NotesPerMeasure, 32)
 		
 		if #segments == 0 or GetDensity(segments) < 0.2 then
@@ -241,8 +242,8 @@ GenerateBreakdownText = function(pn, minimization_level)
 		end
 	end
 	
-	local displaybpm = GetDisplayBPMs(pn)[1]
-	local realBpms = GAMESTATE:GetCurrentSong():GetTimingData():GetActualBPM()
+	local displaybpm = displayBpms and displayBpms[1] or 0
+	local realBpms = GAMESTATE:GetCurrentSong() and GAMESTATE:GetCurrentSong():GetTimingData():GetActualBPM() or nil
 	
 	if realBpms then
 		if displaybpm * multiplier > realBpms[1] * multiplier and displaybpm * multiplier > realBpms[2] * multiplier then
@@ -283,7 +284,8 @@ GetTotalStreamAndBreakMeasures = function(pn, fullMeasures)
 	end
 
 	
-	if GetDisplayBPMs(pn)[1] == GetDisplayBPMs(pn)[2] then
+	local displayBpms = GetDisplayBPMs(pn)
+	if displayBpms and displayBpms[1] == displayBpms[2] then
 		segments = GetStreamSequences(SL[pn].Streams.NotesPerMeasure, 30+addition)
 		
 		if #segments == 0 or GetDensity(segments) < 0.2 then

@@ -1,5 +1,7 @@
 local player = ...
+local pn = ToEnumShortString(player)
 local info
+local w, h
 
 -- in CourseMode, GetStepsCredit() will return a table of info that
 -- has as many entries as there are stepcharts in the course
@@ -58,3 +60,4 @@ return LoadFont("Common Normal")..{
 	end,
 	OffCommand=function(self) self:stoptweening() end
 }
+

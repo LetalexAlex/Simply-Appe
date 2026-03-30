@@ -1,177 +1,178 @@
 local player = ...
-local pn = ToEnumShortString(player)
-local pnum = tonumber(player:sub(-1))
+local PlayerState = GAMESTATE:GetPlayerState(player)
 
-if not SL[pn].ActiveModifiers.StepInfo then return end
+local NoteFieldIsCentered = (GetNotefieldX(player) == _screen.cx)
+local IsUltraWide = (GetScreenAspectRatio() > 21 / 9)
 
--- Positioning
-local c = PREFSMAN:GetPreference("Center1Player")
-local ar = GetScreenAspectRatio()
-local ws = IsUsingWideScreen()
+local af = Def.ActorFrame {}
 
-local x = ws and -190 or -155
-local xoffset = pnum == 1 and (ws and 285 or 225) or 0
+af.InitCommand = function(self)
+    self:x(SL_WideScale(150, 202) * (player == PLAYER_1 and -1 or 1))
+    self:y(25)
 
-local y = -8
-local yoffset = 0
+    if NoteFieldIsCentered and IsUsingWideScreen() then
+        self:x(154 * (player == PLAYER_1 and -1 or 1))
+    end
 
-local zoom = 0.75
-local xvalues = (not c and ar < 1.5) and 0 or 45
-local maxwidth = ws and 320 or 300
-
-local row_height = 16
-
-if c then -- Center 1 player has different position and zoom for step stats
-	xvalues = 0 -- Removes labels
-	yoffset = -5
-	if ar > 1.7 then -- 16:9
-		x = pnum == 1 and -220 or -150
-		maxwidth = 240
-		zoom = 0.9
-	else --16:10
-		x = pnum == 1 and -240 or -150
-		maxwidth = 210
-		zoom = 0.95
-	end
+    -- flip alignment when ultrawide and both players joined
+    if IsUltraWide and #GAMESTATE:GetHumanPlayers() > 1 then
+        self:x(self:GetX() * -1)
+    end
 end
 
-local SongNumberInCourse = 0
-local author_table = {}
-	
--- Master position and zoom
-local af = Def.ActorFrame { 
-	OnCommand=function(self)
-		self:xy((x+xoffset)*(pnum*2-3) ,y+yoffset)	
-		self:zoom(zoom)
-	end,
-	CurrentSongChangedMessageCommand=function(self)
-		SongNumberInCourse = SongNumberInCourse + 1 
-	end,
-}  
-
-local s
-local sd
-
--- Labels
-local labels = { "Song", "Artist", "Pack", "Desc" }
-if not c and ar > 1.5 then -- only display labels if using widescreen and not using center 1 player
-	for i = 1, #labels do
-		af[#af+1] = Def.BitmapText{
-			Font=ThemePrefs.Get("ThemeFont") .. " Normal",
-			OnCommand=function(self)
-				self:settext(labels[i])
-				self:y(row_height*i)
-				self:horizalign("left")
-			end
-		}
-	end
+local FormatGroup = function(song)
+    if song then
+        local fmt = "%s: %s"
+        return fmt:format("Pack", song:GetGroupName())
+    end
+    return ""
 end
 
--- Course mode now works maybe
-af[#af+1] = Def.ActorFrame {
-	InitCommand=function(self)
-		self:x(xvalues)
-	end,
-	-- Song name
-	Def.BitmapText {
-		Font=ThemePrefs.Get("ThemeFont") .. " Normal",
-		OnCommand=function(self)			
-			self:horizalign("left")
-			self:y(row_height)
-			self:maxwidth(maxwidth)
-		end,
-		CurrentSongChangedMessageCommand=function(self)
-			local song, steps = GetSongAndSteps(player)
-			self:settext(song:GetTranslitFullTitle())
-		end
-	},
-	-- Artist name
-	Def.BitmapText{
-		Font=ThemePrefs.Get("ThemeFont") .. " Normal",
-		OnCommand=function(self)
-			self:horizalign("left")
-			self:y(row_height*2)
-			self:maxwidth(maxwidth)
-		end,
-		CurrentSongChangedMessageCommand=function(self)
-			local song, steps = GetSongAndSteps(player)
-			self:settext(song:GetTranslitArtist())
-		end
-	},
-	-- Pack name
-	Def.BitmapText{
-		Font=ThemePrefs.Get("ThemeFont") .. " Normal",
-		OnCommand=function(self)
-			self:horizalign("left")
-			self:y(row_height*3)
-			self:maxwidth(maxwidth)
-		end,
-		CurrentSongChangedMessageCommand=function(self)
-			local song, steps = GetSongAndSteps(player)
-			self:settext(song:GetGroupName())
-		end
-	},
-	-- Author
-	Def.BitmapText{
-		Font=ThemePrefs.Get("ThemeFont") .. " Normal",
-		OnCommand=function(self)
-			self:y(row_height*4)
-			self:horizalign("left")
-			self:maxwidth(maxwidth)
-			
-			-- Reset the text (mainly for course mode)
-			self:settext("")
-			author_table = {}
-			
-			-- it returns an error if I take this part out idk why
-			local song, steps = GetSongAndSteps(player)
-			
-			author_table = getAuthorTable(steps)
-			
-			marquee_index = 0
-			-- Loop the author field
-			if #author_table > 0 then
-				self:queuecommand("Marquee")
-			else
-				self:settext("")
-			end
-			if #author_table > 1 then
-				self:queuecommand("Marquee")
-			end
-		
-		end,
-		CurrentSongChangedMessageCommand=function(self)
-			-- Reset the text (mainly for course mode)	
-			self:settext("")
-			author_table = {}
+local FormatSongArtist = function(song)
+    if song then
+        local fmt = "%s: %s"
+        return fmt:format("Artist", song:GetDisplayArtist())
+    end
+    return ""
+end
 
-			local song, steps = GetSongAndSteps(player)
-			
-			author_table = getAuthorTable(steps)
-			
-			marquee_index = 0
-			-- Loop the author field
-			if #author_table > 0 then
-				self:queuecommand("Marquee")
-			else
-				self:settext("")
-			end
-			
-		end,
-		MarqueeCommand=function(self)
-			-- Check author table (for course mode)
-			if #author_table > 0 then
-				marquee_index = (marquee_index % #author_table) + 1
-				local text = author_table[marquee_index]
-				self:settext(text)
-				DiffuseEmojis(self,text)
-				if marquee_index == #author_table then
-					marquee_index = 0
-				end
-				self:sleep(2):queuecommand("Marquee")
-			end
-		end,
-	}
+local GetSongAndSteps = function(player)
+    local song = GAMESTATE:GetCurrentSong()
+    local steps = GAMESTATE:GetCurrentSteps(player)
+
+    return song, steps
+end
+
+local getAuthorTable = function(steps)
+    -- Returns a table of max 3 rows of step data
+    -- like step author, chart artist, tech notation, stream breakdown,  meme quotes
+    local desc = steps:GetDescription()
+    local author_table = {}
+
+    if desc ~= "" then
+        author_table[#author_table + 1] = desc
+    end
+
+    local cred = steps:GetAuthorCredit()
+    if cred ~= "" and (not FindInTable(cred, author_table)) then
+        author_table[#author_table + 1] = cred
+    end
+
+    local name = steps:GetChartName()
+    if name ~= "" and (not FindInTable(name, author_table)) then
+        author_table[#author_table + 1] = name
+    end
+
+    return author_table
+end
+
+af[#af + 1] = LoadFont("Common Normal") .. {
+    Name = "StepsInfo_SongArtist",
+    InitCommand = function(self)
+        self:xy(0, -20)
+        self:zoom(0.75)
+        self:maxwidth(250)
+        self:halign(PlayerNumber:Reverse()[player]):vertalign(bottom)
+
+        if IsUltraWide and #GAMESTATE:GetHumanPlayers() > 1 then
+            self:halign(PlayerNumber:Reverse()[OtherPlayer[player]])
+            self:x(50 * (player == PLAYER_1 and -1 or 1))
+        end
+
+        self:queuecommand("CurrentSongChangedMessage")
+    end,
+    CurrentSongChangedMessageCommand = function(self, params)
+        self:settext(FormatSongArtist(GAMESTATE:GetCurrentSong()))
+    end
+}
+
+af[#af + 1] = LoadFont("Common Normal") .. {
+    Name = "StepsInfo_StepArtist",
+    InitCommand = function(self)
+        self:xy(0, 0)
+        self:zoom(0.75)
+        self:maxwidth(250)
+        self:halign(PlayerNumber:Reverse()[player]):vertalign(bottom)
+
+        if IsUltraWide and #GAMESTATE:GetHumanPlayers() > 1 then
+            self:halign(PlayerNumber:Reverse()[OtherPlayer[player]])
+            self:x(50 * (player == PLAYER_1 and -1 or 1))
+        end
+
+        self:queuecommand("CurrentSongChangedMessage")
+    end,
+    OnCommand = function(self)
+        -- Reset the text (mainly for course mode)
+        self:settext("")
+        author_table = {}
+
+        -- it returns an error if I take this part out idk why
+        local song, steps = GetSongAndSteps(player)
+
+        author_table = getAuthorTable(steps)
+
+        marquee_index = 0
+        -- Loop the author field
+        if #author_table > 0 then
+            self:queuecommand("Marquee")
+        else
+            self:settext("")
+        end
+        if #author_table > 1 then
+            self:queuecommand("Marquee")
+        end
+    end,
+    CurrentSongChangedMessageCommand = function(self)
+        -- Reset the text (mainly for course mode)	
+        self:settext("")
+        author_table = {}
+
+        local song, steps = GetSongAndSteps(player)
+
+        author_table = getAuthorTable(steps)
+
+        marquee_index = 0
+        -- Loop the author field
+        if #author_table > 0 then
+            self:queuecommand("Marquee")
+        else
+            self:settext("")
+        end
+        if #author_table > 1 then
+            self:queuecommand("Marquee")
+        end
+    end,
+    MarqueeCommand = function(self)
+        local fmt = "%s: %s"
+        marquee_index = (marquee_index % #author_table) + 1
+        local text = author_table[marquee_index]
+        self:settext(fmt:format("Chart", text))
+        DiffuseEmojis(self, text)
+        if marquee_index == #author_table then
+            marquee_index = 0
+        end
+        self:sleep(3):queuecommand("Marquee")
+    end
+}
+
+af[#af + 1] = LoadFont("Common Normal") .. {
+    Name = "StepsInfo_Group",
+    InitCommand = function(self)
+        self:xy(0, 20)
+        self:zoom(0.75)
+        self:maxwidth(250)
+        self:halign(PlayerNumber:Reverse()[player]):vertalign(bottom)
+
+        if IsUltraWide and #GAMESTATE:GetHumanPlayers() > 1 then
+            self:halign(PlayerNumber:Reverse()[OtherPlayer[player]])
+            self:x(50 * (player == PLAYER_1 and -1 or 1))
+        end
+
+        self:queuecommand("CurrentSongChangedMessage")
+    end,
+    CurrentSongChangedMessageCommand = function(self, params)
+        self:settext(FormatGroup(GAMESTATE:GetCurrentSong()))
+    end
 }
 
 return af

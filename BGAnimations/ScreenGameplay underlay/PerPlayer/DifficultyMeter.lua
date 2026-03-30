@@ -40,5 +40,5 @@ return Def.ActorFrame{
 				self:settext(meter)
 			end
 		end
-	}
+	},
 }

@@ -21,7 +21,7 @@ local t = Def.ActorFrame {
 	VisualStyleSelectedMessageCommand=function(self)
 		local style = ThemePrefs.Get("VisualStyle")
 
-		if ThemePrefs.Get("RainbowMode") or style == "SRPG9" or style == "Technique" or style ~= "ITG" then
+		if ThemePrefs.Get("RainbowMode") or style == "SRPG9" or style == "Technique" or style == "ITG" then
 			self:linear(0.6):diffusealpha(0):queuecommand("Hide")
 		else
 			self:visible(true):linear(0.6):diffusealpha(1)

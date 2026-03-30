@@ -48,9 +48,6 @@ af[#af+1] = Def.Sprite{
 	end,
 }
 
-if ThemePrefs.Get("VisualStyle") == "ITG" then
-	
-end
 
 if ThemePrefs.Get("VisualStyle") ~= "SRPG9" and ThemePrefs.Get("VisualStyle") ~= "ITG" then
 	-- decorative arrows for current game (dance, pump, techno, etc.)

@@ -60,4 +60,3 @@ return LoadFont("Common Normal")..{
 	end,
 	OffCommand=function(self) self:stoptweening() end
 }
-

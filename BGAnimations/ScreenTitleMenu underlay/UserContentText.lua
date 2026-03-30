@@ -62,14 +62,30 @@ end
 -- -----------------------------------------------------------------------
 
 -- build a 3-line string to display info about this version of SL, this version of SM, and installed song content
-local text = ("%s%s\n%s\n%s"):format(
-	sl_name,  (sl_version and (" v" .. sl_version) or ""),
-	sm_version,
-	song_stats
-)
+local GetText = function()
+	local newer_sl_exists = false
+	local sl_parts = GetVersionParts(sl_version:match("^(%S+)"))
+	if SL.Global.SimplyLoveLatestVersion then
+		newer_sl_exists = IsNewer(SL.Global.SimplyLoveLatestVersion, sl_parts)
+	end
+
+	local newer_itgmania_exists = false
+	local itgmania_parts = GetProductVersion()
+	if SL.Global.ITGmaniaLatestVersion then
+		newer_itgmania_exists = IsNewer(SL.Global.ITGmaniaLatestVersion, itgmania_parts)
+	end
+
+
+	local text = ("%s%s%s\n%s%s\n%s"):format(
+		sl_name,  (sl_version and (" v" .. sl_version) or ""), (newer_sl_exists and " ("..table.concat(sl_parts, ".").." Available📥)" or ""),
+		sm_version, (newer_itgmania_exists and " (" .. table.concat(itgmania_parts, ".") .." Available📥)" or ""),
+		song_stats
+	)
+	return text
+end
 
 return LoadFont(ThemePrefs.Get("ThemeFont") .. " Normal")..{
-	Text=text,
+	Text=GetText(),
 	InitCommand=function(self)
 		self:zoom(0.8):xy(410, -205):horizalign(right):diffusealpha(0)
 		self:playcommand("UpdateColor")
@@ -87,6 +103,9 @@ return LoadFont(ThemePrefs.Get("ThemeFont") .. " Normal")..{
 		end
 
 		self:diffuse(textColor):shadowlength(shadowLength)
+	end,
+	VersionCheckMessageCommand=function(self)
+		self:settext(GetText())
 	end,
 	VisualStyleSelectedMessageCommand=function(self)
 		self:playcommand("UpdateColor")

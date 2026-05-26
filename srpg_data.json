@@ -1,0 +1,2602 @@
+[
+    {
+        "title": "Hold On Tight",
+        "bpm_base": 120,
+        "diff": 11,
+        "rate": "2.00x",
+        "score": "98.02%",
+        "status": "2025-12-21 14:49:26",
+        "duration_sec": 852,
+        "xp": 3421
+    },
+    {
+        "title": "TiME",
+        "bpm_base": 122,
+        "diff": 11,
+        "rate": "1.90x",
+        "score": "85.28%",
+        "status": "2025-12-21 14:52:01",
+        "duration_sec": 1536,
+        "xp": 7785
+    },
+    {
+        "title": "Whiplash",
+        "bpm_base": 126,
+        "diff": 11,
+        "rate": "1.90x",
+        "score": "90.81%",
+        "status": "2025-12-21 14:55:12",
+        "duration_sec": 1207,
+        "xp": 5123
+    },
+    {
+        "title": "Revival On",
+        "bpm_base": 130,
+        "diff": 11,
+        "rate": "1.90x",
+        "score": "83.39%",
+        "status": "2025-12-21 15:01:36",
+        "duration_sec": 822,
+        "xp": 789
+    },
+    {
+        "title": "Turn It Up",
+        "bpm_base": 130,
+        "diff": 11,
+        "rate": "1.90x",
+        "score": "91.97%",
+        "status": "2025-12-21 15:03:32",
+        "duration_sec": 688,
+        "xp": 2509
+    },
+    {
+        "title": "Ocean Blue (Short ver.)",
+        "bpm_base": 135,
+        "diff": 11,
+        "rate": "1.90x",
+        "score": "83.36%",
+        "status": "2025-12-21 15:05:52",
+        "duration_sec": 952,
+        "xp": 5651
+    },
+    {
+        "title": "Cell From Hell (Hard)",
+        "bpm_base": 140,
+        "diff": 11,
+        "rate": "1.90x",
+        "score": "99.11%",
+        "status": "2025-12-21 15:08:47",
+        "duration_sec": 530,
+        "xp": 1622
+    },
+    {
+        "title": "Shining Star (Hard)",
+        "bpm_base": 140,
+        "diff": 11,
+        "rate": "1.00x",
+        "score": "96.44%",
+        "status": "2025-06-25 23:26:56",
+        "duration_sec": 1251,
+        "xp": 34
+    },
+    {
+        "title": "Vaudeville @142 (Easy)",
+        "bpm_base": 142,
+        "diff": 11,
+        "rate": "1.45x",
+        "score": "92.35%",
+        "status": "2025-07-01 14:34:53",
+        "duration_sec": 1308,
+        "xp": 792
+    },
+    {
+        "title": "Colors of Love",
+        "bpm_base": 120,
+        "diff": 12,
+        "rate": "1.50x",
+        "score": "84.45%",
+        "status": "2025-07-01 14:39:42",
+        "duration_sec": 2647,
+        "xp": 2420
+    },
+    {
+        "title": "Severe Blow",
+        "bpm_base": 127,
+        "diff": 12,
+        "rate": "1.45x",
+        "score": "86.69%",
+        "status": "2025-08-17 14:01:00",
+        "duration_sec": 1485,
+        "xp": 1488
+    },
+    {
+        "title": "Aitsu-ra Zen'in Dousoukai Inside Joke",
+        "bpm_base": 131,
+        "diff": 12,
+        "rate": "1.40x",
+        "score": "80.53%",
+        "status": "2025-07-03 13:03:15",
+        "duration_sec": 1960,
+        "xp": 2037
+    },
+    {
+        "title": "Shining Glitter Cookie's Trial",
+        "bpm_base": 135,
+        "diff": 12,
+        "rate": "1.80x",
+        "score": "80.39%",
+        "status": "2026-02-19 14:36:16",
+        "duration_sec": 1394,
+        "xp": 8965
+    },
+    {
+        "title": "Mortal Kombat",
+        "bpm_base": 138,
+        "diff": 12,
+        "rate": "1.80x",
+        "score": "97.75%",
+        "status": "2026-02-19 14:40:58",
+        "duration_sec": 1269,
+        "xp": 5272
+    },
+    {
+        "title": "Virtual Storm",
+        "bpm_base": 140,
+        "diff": 12,
+        "rate": "1.65x",
+        "score": "82.80%",
+        "status": "2026-02-08 13:25:26",
+        "duration_sec": 1665,
+        "xp": 7087
+    },
+    {
+        "title": "Start Taking Note (Rift Remix)",
+        "bpm_base": 145,
+        "diff": 12,
+        "rate": "1.65x",
+        "score": "88.85%",
+        "status": "2026-02-08 13:28:49",
+        "duration_sec": 1438,
+        "xp": 6847
+    },
+    {
+        "title": "Flowering",
+        "bpm_base": 148,
+        "diff": 12,
+        "rate": "1.00x",
+        "score": "90.89%",
+        "status": "2025-07-04 14:11:30",
+        "duration_sec": 1022,
+        "xp": 108
+    },
+    {
+        "title": "BassMarck",
+        "bpm_base": 150,
+        "diff": 12,
+        "rate": "1.60x",
+        "score": "97.90%",
+        "status": "2025-10-10 16:24:36",
+        "duration_sec": 1183,
+        "xp": 5037
+    },
+    {
+        "title": "I'm Gone, I'm Going",
+        "bpm_base": 155,
+        "diff": 12,
+        "rate": "1.00x",
+        "score": "95.70%",
+        "status": "2025-07-19 03:15:08",
+        "duration_sec": 1549,
+        "xp": 268
+    },
+    {
+        "title": "Everything Goes On",
+        "bpm_base": 157,
+        "diff": 12,
+        "rate": "1.25x",
+        "score": "90.18%",
+        "status": "2025-07-04 14:19:56",
+        "duration_sec": 1310,
+        "xp": 1033
+    },
+    {
+        "title": "Time Traveler",
+        "bpm_base": 160,
+        "diff": 12,
+        "rate": "1.21x",
+        "score": "97.54%",
+        "status": "2025-08-13 16:17:43",
+        "duration_sec": 936,
+        "xp": 603
+    },
+    {
+        "title": "Battlegrounds",
+        "bpm_base": 165,
+        "diff": 12,
+        "rate": "1.00x",
+        "score": "70.02%",
+        "status": "2025-06-27 14:29:07",
+        "duration_sec": 1007,
+        "xp": 108
+    },
+    {
+        "title": "After snow -Shiroki Eien- (Lemon beads trance bootleg)",
+        "bpm_base": 135,
+        "diff": 13,
+        "rate": "1.50x",
+        "score": "89.16%",
+        "status": "2025-07-04 14:27:11",
+        "duration_sec": 3126,
+        "xp": 4163
+    },
+    {
+        "title": "Different (Novice) (Full)",
+        "bpm_base": 138,
+        "diff": 13,
+        "rate": "1.70x",
+        "score": "88.45%",
+        "status": "2026-02-19 14:47:31",
+        "duration_sec": 2897,
+        "xp": 10240
+    },
+    {
+        "title": "Push The Fader",
+        "bpm_base": 140,
+        "diff": 13,
+        "rate": "1.50x",
+        "score": "88.41%",
+        "status": "2025-07-04 14:43:12",
+        "duration_sec": 2229,
+        "xp": 4937
+    },
+    {
+        "title": "fall down (Hard) (long)",
+        "bpm_base": 143,
+        "diff": 13,
+        "rate": "1.00x",
+        "score": "88.12%",
+        "status": "2025-07-07 13:12:28",
+        "duration_sec": 2455,
+        "xp": 504
+    },
+    {
+        "title": "Polovtsian Dances And Chorus",
+        "bpm_base": 146,
+        "diff": 13,
+        "rate": "1.45x",
+        "score": "95.43%",
+        "status": "2025-08-27 13:52:51",
+        "duration_sec": 2432,
+        "xp": 4182
+    },
+    {
+        "title": "Mechanical Jager",
+        "bpm_base": 150,
+        "diff": 13,
+        "rate": "1.00x",
+        "score": "96.98%",
+        "status": "2025-08-24 13:47:13",
+        "duration_sec": 1853,
+        "xp": 454
+    },
+    {
+        "title": "Wissen ist Macht!!",
+        "bpm_base": 150,
+        "diff": 13,
+        "rate": "1.00x",
+        "score": "84.59%",
+        "status": "2025-07-07 13:23:25",
+        "duration_sec": 1999,
+        "xp": 609
+    },
+    {
+        "title": "Minimal Love",
+        "bpm_base": 155,
+        "diff": 13,
+        "rate": "1.23x",
+        "score": "88.32%",
+        "status": "2025-06-26 13:35:35",
+        "duration_sec": 2253,
+        "xp": 1458
+    },
+    {
+        "title": "Moony eyes",
+        "bpm_base": 160,
+        "diff": 13,
+        "rate": "1.00x",
+        "score": "86.81%",
+        "status": "2025-07-07 13:31:34",
+        "duration_sec": 1722,
+        "xp": 554
+    },
+    {
+        "title": "Slemyatsya Pacany",
+        "bpm_base": 161,
+        "diff": 13,
+        "rate": "1.45x",
+        "score": "98.29%",
+        "status": "2026-01-01 14:00:15",
+        "duration_sec": 1397,
+        "xp": 5096
+    },
+    {
+        "title": "Electric Heritage",
+        "bpm_base": 165,
+        "diff": 13,
+        "rate": "1.00x",
+        "score": "85.87%",
+        "status": "2025-07-07 13:27:07",
+        "duration_sec": 1534,
+        "xp": 603
+    },
+    {
+        "title": "You Too Much",
+        "bpm_base": 170,
+        "diff": 13,
+        "rate": "1.50x",
+        "score": "98.24%",
+        "status": "2026-02-19 14:59:35",
+        "duration_sec": 1067,
+        "xp": 5605
+    },
+    {
+        "title": "Looking For The Light",
+        "bpm_base": 174,
+        "diff": 13,
+        "rate": "1.40x",
+        "score": "99.08%",
+        "status": "2025-11-21 16:25:25",
+        "duration_sec": 654,
+        "xp": 2697
+    },
+    {
+        "title": "lastendconductor",
+        "bpm_base": 140,
+        "diff": 14,
+        "rate": "1.45x",
+        "score": "86.39%",
+        "status": "2025-07-08 16:25:39",
+        "duration_sec": 4989,
+        "xp": 5407
+    },
+    {
+        "title": "Let's Go, Come On",
+        "bpm_base": 149,
+        "diff": 14,
+        "rate": "1.35x",
+        "score": "78.70%",
+        "status": "2025-08-09 02:59:30",
+        "duration_sec": 2752,
+        "xp": 3886
+    },
+    {
+        "title": "-(DEOXYRIBOSE)-",
+        "bpm_base": 150,
+        "diff": 14,
+        "rate": "1.00x",
+        "score": "80.41%",
+        "status": "2025-07-06 10:08:02",
+        "duration_sec": 3323,
+        "xp": 922
+    },
+    {
+        "title": "Stellalude",
+        "bpm_base": 155,
+        "diff": 14,
+        "rate": "1.35x",
+        "score": "90.77%",
+        "status": "2025-07-11 14:20:20",
+        "duration_sec": 2680,
+        "xp": 5533
+    },
+    {
+        "title": "Virtuous suicide (EXTENDED Ver.)",
+        "bpm_base": 157,
+        "diff": 14,
+        "rate": "1.35x",
+        "score": "88.89%",
+        "status": "2025-07-11 14:28:28",
+        "duration_sec": 3307,
+        "xp": 4140
+    },
+    {
+        "title": "Nothing But Theory (More JazzFunktion Mix)",
+        "bpm_base": 160,
+        "diff": 14,
+        "rate": "1.35x",
+        "score": "86.38%",
+        "status": "2025-07-11 14:56:36",
+        "duration_sec": 2155,
+        "xp": 4689
+    },
+    {
+        "title": "Two Cirrate Cubiforms",
+        "bpm_base": 160,
+        "diff": 14,
+        "rate": "1.35x",
+        "score": "87.15%",
+        "status": "2025-07-11 15:10:05",
+        "duration_sec": 2464,
+        "xp": 4983
+    },
+    {
+        "title": "Player",
+        "bpm_base": 168,
+        "diff": 14,
+        "rate": "1.30x",
+        "score": "88.32%",
+        "status": "2025-07-11 15:04:00",
+        "duration_sec": 2685,
+        "xp": 3879
+    },
+    {
+        "title": "Clad",
+        "bpm_base": 170,
+        "diff": 14,
+        "rate": "1.25x",
+        "score": "98.56%",
+        "status": "2025-10-11 13:56:45",
+        "duration_sec": 2117,
+        "xp": 3190
+    },
+    {
+        "title": "Gold Dust (Fox Stevenson Remix)",
+        "bpm_base": 174,
+        "diff": 14,
+        "rate": "1.25x",
+        "score": "79.08%",
+        "status": "2025-07-01 14:23:22",
+        "duration_sec": 1688,
+        "xp": 3983
+    },
+    {
+        "title": "If You Like That (feat. Doktor)",
+        "bpm_base": 175,
+        "diff": 14,
+        "rate": "1.00x",
+        "score": "80.73%",
+        "status": "2025-07-12 15:30:36",
+        "duration_sec": 1797,
+        "xp": 1013
+    },
+    {
+        "title": "CHAOS MAGNVM",
+        "bpm_base": 180,
+        "diff": 14,
+        "rate": "1.17x",
+        "score": "92.24%",
+        "status": "2025-07-28 00:21:50",
+        "duration_sec": 1693,
+        "xp": 2552
+    },
+    {
+        "title": "Inferno",
+        "bpm_base": 185,
+        "diff": 14,
+        "rate": "1.00x",
+        "score": "97.82%",
+        "status": "2025-07-08 13:55:59",
+        "duration_sec": 1673,
+        "xp": 710
+    },
+    {
+        "title": "SLOWEST ANIMU MUSIC",
+        "bpm_base": 150,
+        "diff": 15,
+        "rate": "1.30x",
+        "score": "86.71%",
+        "status": "2025-07-13 14:14:25",
+        "duration_sec": 5927,
+        "xp": 5061
+    },
+    {
+        "title": "Hypershrooms",
+        "bpm_base": 157,
+        "diff": 15,
+        "rate": "1.30x",
+        "score": "84.28%",
+        "status": "2025-07-13 13:57:20",
+        "duration_sec": 4085,
+        "xp": 5672
+    },
+    {
+        "title": "Ken's Stage Beyond Nature Mix",
+        "bpm_base": 164,
+        "diff": 15,
+        "rate": "1.25x",
+        "score": "85.84%",
+        "status": "2025-07-13 15:12:55",
+        "duration_sec": 3764,
+        "xp": 5178
+    },
+    {
+        "title": "Al Suhail al Wazn",
+        "bpm_base": 166,
+        "diff": 15,
+        "rate": "1.25x",
+        "score": "85.82%",
+        "status": "2025-07-13 14:55:56",
+        "duration_sec": 2577,
+        "xp": 4590
+    },
+    {
+        "title": "HARD BRAIN",
+        "bpm_base": 167,
+        "diff": 15,
+        "rate": "1.25x",
+        "score": "80.30%",
+        "status": "2025-07-13 14:45:55",
+        "duration_sec": 2395,
+        "xp": 4938
+    },
+    {
+        "title": "Crumbling",
+        "bpm_base": 172,
+        "diff": 15,
+        "rate": "1.20x",
+        "score": "86.15%",
+        "status": "2025-08-08 14:58:48",
+        "duration_sec": 2985,
+        "xp": 3347
+    },
+    {
+        "title": "Clear Eyes Clear Skies",
+        "bpm_base": 174,
+        "diff": 15,
+        "rate": "1.20x",
+        "score": "85.46%",
+        "status": "2025-07-13 15:26:16",
+        "duration_sec": 2135,
+        "xp": 4768
+    },
+    {
+        "title": "Airplanes Feint Remix",
+        "bpm_base": 178,
+        "diff": 15,
+        "rate": "1.20x",
+        "score": "88.11%",
+        "status": "2025-06-29 14:14:01",
+        "duration_sec": 2098,
+        "xp": 3884
+    },
+    {
+        "title": "Twisted on the Surface The Answer",
+        "bpm_base": 180,
+        "diff": 15,
+        "rate": "1.15x",
+        "score": "89.58%",
+        "status": "2025-08-15 15:20:51",
+        "duration_sec": 2014,
+        "xp": 4131
+    },
+    {
+        "title": "INNOVATiONARY X-PLOSiON -Full AXEL-",
+        "bpm_base": 180,
+        "diff": 15,
+        "rate": "1.00x",
+        "score": "89.59%",
+        "status": "2025-08-12 14:55:25",
+        "duration_sec": 3630,
+        "xp": 1264
+    },
+    {
+        "title": "sink to the deep sea world",
+        "bpm_base": 185,
+        "diff": 15,
+        "rate": "1.00x",
+        "score": "96.37%",
+        "status": "2025-09-01 16:18:07",
+        "duration_sec": 2405,
+        "xp": 1585
+    },
+    {
+        "title": "Zenzenzense (movie ver.)",
+        "bpm_base": 190,
+        "diff": 15,
+        "rate": "1.00x",
+        "score": "83.31%",
+        "status": "2025-08-05 13:44:18",
+        "duration_sec": 2529,
+        "xp": 1310
+    },
+    {
+        "title": "Weigh Anchor (Vesperbell Yomi Cover)",
+        "bpm_base": 195,
+        "diff": 15,
+        "rate": "1.00x",
+        "score": "89.67%",
+        "status": "2025-08-05 13:57:20",
+        "duration_sec": 2413,
+        "xp": 1824
+    },
+    {
+        "title": "Eurobeat Is Fantastic ~2nd Stage~ (Part 2)",
+        "bpm_base": 163,
+        "diff": 16,
+        "rate": "1.35x",
+        "score": "90.87%",
+        "status": "2026-01-23 16:41:17",
+        "duration_sec": 6736,
+        "xp": 9030
+    },
+    {
+        "title": "Seven FB 168",
+        "bpm_base": 168,
+        "diff": 16,
+        "rate": "1.15x",
+        "score": "86.84%",
+        "status": "2025-08-13 15:29:43",
+        "duration_sec": 4451,
+        "xp": 4138
+    },
+    {
+        "title": "Mezame (Nomic Bootleg)",
+        "bpm_base": 170,
+        "diff": 16,
+        "rate": "1.20x",
+        "score": "83.55%",
+        "status": "2025-08-08 15:10:29",
+        "duration_sec": 3166,
+        "xp": 5055
+    },
+    {
+        "title": "Midnight Runner (Easy)",
+        "bpm_base": 174,
+        "diff": 16,
+        "rate": "1.00x",
+        "score": "78.10%",
+        "status": "2025-07-06 10:15:01",
+        "duration_sec": 3613,
+        "xp": 1755
+    },
+    {
+        "title": "The Phantom Below",
+        "bpm_base": 177,
+        "diff": 16,
+        "rate": "1.15x",
+        "score": "89.07%",
+        "status": "2025-08-10 14:49:44",
+        "duration_sec": 2636,
+        "xp": 4216
+    },
+    {
+        "title": "LA FORZA",
+        "bpm_base": 180,
+        "diff": 16,
+        "rate": "1.15x",
+        "score": "90.91%",
+        "status": "2025-08-10 14:44:05",
+        "duration_sec": 3252,
+        "xp": 3448
+    },
+    {
+        "title": "Vs. Lancer",
+        "bpm_base": 181,
+        "diff": 16,
+        "rate": "1.10x",
+        "score": "76.58%",
+        "status": "2025-08-03 14:53:33",
+        "duration_sec": 2436,
+        "xp": 4264
+    },
+    {
+        "title": "DMYK",
+        "bpm_base": 187,
+        "diff": 16,
+        "rate": "1.15x",
+        "score": "83.62%",
+        "status": "2025-08-17 14:57:22",
+        "duration_sec": 3313,
+        "xp": 5036
+    },
+    {
+        "title": "Waking Shadows",
+        "bpm_base": 190,
+        "diff": 16,
+        "rate": "1.00x",
+        "score": "95.55%",
+        "status": "2025-08-15 15:14:01",
+        "duration_sec": 2991,
+        "xp": 1594
+    },
+    {
+        "title": "Needled 24-7",
+        "bpm_base": 192,
+        "diff": 16,
+        "rate": "1.10x",
+        "score": "83.72%",
+        "status": "2025-08-10 14:36:06",
+        "duration_sec": 2510,
+        "xp": 4020
+    },
+    {
+        "title": "Loli Bomb",
+        "bpm_base": 195,
+        "diff": 16,
+        "rate": "1.10x",
+        "score": "90.48%",
+        "status": "2025-08-12 15:30:44",
+        "duration_sec": 2681,
+        "xp": 4381
+    },
+    {
+        "title": "Chichovite",
+        "bpm_base": 200,
+        "diff": 16,
+        "rate": "1.00x",
+        "score": "98.07%",
+        "status": "2025-10-03 16:19:21",
+        "duration_sec": 1794,
+        "xp": 2682
+    },
+    {
+        "title": "Bitter Tears",
+        "bpm_base": 204,
+        "diff": 16,
+        "rate": "1.00x",
+        "score": "85.77%",
+        "status": "2025-08-03 14:47:28",
+        "duration_sec": 2705,
+        "xp": 2630
+    },
+    {
+        "title": "SLOWER ANIMU MUSIC",
+        "bpm_base": 173,
+        "diff": 17,
+        "rate": "1.10x",
+        "score": "86.91%",
+        "status": "2025-08-12 15:51:19",
+        "duration_sec": 6982,
+        "xp": 4252
+    },
+    {
+        "title": "Braincrash",
+        "bpm_base": 178,
+        "diff": 17,
+        "rate": "1.10x",
+        "score": "83.17%",
+        "status": "2025-08-17 15:27:42",
+        "duration_sec": 6378,
+        "xp": 5199
+    },
+    {
+        "title": "Kemarin (Yesterday)",
+        "bpm_base": 180,
+        "diff": 17,
+        "rate": "1.20x",
+        "score": "86.81%",
+        "status": "2026-01-23 16:26:35",
+        "duration_sec": 5344,
+        "xp": 6768
+    },
+    {
+        "title": "RetroFuture",
+        "bpm_base": 182,
+        "diff": 17,
+        "rate": "1.15x",
+        "score": "90.32%",
+        "status": "2026-01-01 14:26:23",
+        "duration_sec": 3561,
+        "xp": 6337
+    },
+    {
+        "title": "Trail of Dust",
+        "bpm_base": 184,
+        "diff": 17,
+        "rate": "1.05x",
+        "score": "79.26%",
+        "status": "2025-08-03 15:34:40",
+        "duration_sec": 4332,
+        "xp": 3789
+    },
+    {
+        "title": "When the Sunrise Breaks the Darkness",
+        "bpm_base": 190,
+        "diff": 17,
+        "rate": "1.05x",
+        "score": "77.63%",
+        "status": "2025-08-03 15:24:48",
+        "duration_sec": 3908,
+        "xp": 3593
+    },
+    {
+        "title": "The Last Samurai (Wikileadz Remix)",
+        "bpm_base": 190,
+        "diff": 17,
+        "rate": "1.05x",
+        "score": "83.85%",
+        "status": "2025-08-03 15:15:11",
+        "duration_sec": 4219,
+        "xp": 3961
+    },
+    {
+        "title": "Run Rabbit Junk",
+        "bpm_base": 195,
+        "diff": 17,
+        "rate": "1.00x",
+        "score": "78.25%",
+        "status": "2025-08-03 14:35:30",
+        "duration_sec": 2929,
+        "xp": 3080
+    },
+    {
+        "title": "invoker (The Requiem's Gram Remix)",
+        "bpm_base": 200,
+        "diff": 17,
+        "rate": "1.00x",
+        "score": "82.45%",
+        "status": "2025-08-03 14:40:27",
+        "duration_sec": 2558,
+        "xp": 3558
+    },
+    {
+        "title": "Above the Winter Moonlight",
+        "bpm_base": 200,
+        "diff": 17,
+        "rate": "1.00x",
+        "score": "84.44%",
+        "status": "2025-08-16 13:56:49",
+        "duration_sec": 4089,
+        "xp": 2707
+    },
+    {
+        "title": "Bokura no Freedom DiVE",
+        "bpm_base": 204,
+        "diff": 17,
+        "rate": "1.00x",
+        "score": "84.86%",
+        "status": "2025-07-01 14:48:32",
+        "duration_sec": 3056,
+        "xp": 3005
+    },
+    {
+        "title": "Fractal Glitch Works (Part 3) Nirvikalpa Samadhi",
+        "bpm_base": 180,
+        "diff": 18,
+        "rate": "1.00x",
+        "score": "84.15%",
+        "status": "2025-06-26 15:05:06",
+        "duration_sec": 8710,
+        "xp": 4086
+    },
+    {
+        "title": "SLOW ANIMU MUSIC",
+        "bpm_base": 187,
+        "diff": 18,
+        "rate": "1.00x",
+        "score": "79.26%",
+        "status": "2025-07-01 15:22:03",
+        "duration_sec": 6937,
+        "xp": 3808
+    },
+    {
+        "title": "Freezing Rose",
+        "bpm_base": 190,
+        "diff": 18,
+        "rate": "1.10x",
+        "score": "86.24%",
+        "status": "2025-11-28 15:27:30",
+        "duration_sec": 3998,
+        "xp": 6693
+    },
+    {
+        "title": "Algorhythm",
+        "bpm_base": 194,
+        "diff": 18,
+        "rate": "1.00x",
+        "score": "81.60%",
+        "status": "2025-08-01 15:35:21",
+        "duration_sec": 4587,
+        "xp": 4251
+    },
+    {
+        "title": "Lovelabor",
+        "bpm_base": 196,
+        "diff": 18,
+        "rate": "1.00x",
+        "score": "79.51%",
+        "status": "2025-08-01 14:35:24",
+        "duration_sec": 3710,
+        "xp": 4531
+    },
+    {
+        "title": "Holography",
+        "bpm_base": 200,
+        "diff": 18,
+        "rate": "1.00x",
+        "score": "83.47%",
+        "status": "2025-06-23 15:57:40",
+        "duration_sec": 3341,
+        "xp": 4931
+    },
+    {
+        "title": "Dead Dreaming",
+        "bpm_base": 202,
+        "diff": 18,
+        "rate": "1.00x",
+        "score": "76.41%",
+        "status": "2025-08-03 15:46:17",
+        "duration_sec": 4247,
+        "xp": 4606
+    },
+    {
+        "title": "God Of War (The Speed Freak's Remix)",
+        "bpm_base": 205,
+        "diff": 18,
+        "rate": "1.00x",
+        "score": "85.03%",
+        "status": "2025-08-01 14:57:47",
+        "duration_sec": 3911,
+        "xp": 3836
+    },
+    {
+        "title": "Intergalactic v2 (Part 2)",
+        "bpm_base": 190,
+        "diff": 19,
+        "rate": "1.00x",
+        "score": "86.52%",
+        "status": "2025-08-23 15:31:44",
+        "duration_sec": 9063,
+        "xp": 5424
+    },
+    {
+        "title": "Trails of Cold Stream SC (Part 2)",
+        "bpm_base": 200,
+        "diff": 19,
+        "rate": "1.00x",
+        "score": "82.67%",
+        "status": "2025-08-24 15:12:19",
+        "duration_sec": 7626,
+        "xp": 5801
+    },
+    {
+        "title": "Hope & Fate",
+        "bpm_base": 205,
+        "diff": 19,
+        "rate": "1.00x",
+        "score": "87.61%",
+        "status": "2025-08-10 16:05:57",
+        "duration_sec": 5234,
+        "xp": 5832
+    },
+    {
+        "title": "Fever Dream",
+        "bpm_base": 205,
+        "diff": 20,
+        "rate": "1.00x",
+        "score": "86.85%",
+        "status": "2025-08-19 15:44:23",
+        "duration_sec": 10176,
+        "xp": 7669
+    },
+    {
+        "title": "StaRt(katagiri Remix)",
+        "bpm_base": 210,
+        "diff": 17,
+        "rate": "1.00x",
+        "score": "86.75%",
+        "status": "2025-06-26 14:07:48",
+        "duration_sec": 2191,
+        "xp": 3547
+    },
+    {
+        "title": "Giri The Giri",
+        "bpm_base": 215,
+        "diff": 17,
+        "rate": "1.00x",
+        "score": "87.18%",
+        "status": "2025-06-26 14:02:56",
+        "duration_sec": 1841,
+        "xp": 4750
+    },
+    {
+        "title": "Chiron",
+        "bpm_base": 210,
+        "diff": 18,
+        "rate": "1.00x",
+        "score": "84.08%",
+        "status": "2025-07-11 16:04:18",
+        "duration_sec": 2633,
+        "xp": 3750
+    },
+    {
+        "title": "Epidermis FB 215",
+        "bpm_base": 215,
+        "diff": 18,
+        "rate": "1.00x",
+        "score": "87.02%",
+        "status": "2025-08-19 15:08:52",
+        "duration_sec": 2690,
+        "xp": 4215
+    },
+    {
+        "title": "Reload All Your Shooters",
+        "bpm_base": 216,
+        "diff": 18,
+        "rate": "1.00x",
+        "score": "82.87%",
+        "status": "2025-07-22 14:50:35",
+        "duration_sec": 2889,
+        "xp": 4585
+    },
+    {
+        "title": "Flamingo (WTN3 Remix)",
+        "bpm_base": 220,
+        "diff": 18,
+        "rate": "1.00x",
+        "score": "88.65%",
+        "status": "2025-07-08 14:42:42",
+        "duration_sec": 2441,
+        "xp": 5143
+    },
+    {
+        "title": "In The Next Life",
+        "bpm_base": 226,
+        "diff": 18,
+        "rate": "1.00x",
+        "score": "85.56%",
+        "status": "2025-07-08 14:38:44",
+        "duration_sec": 1750,
+        "xp": 4979
+    },
+    {
+        "title": "Jackwagon",
+        "bpm_base": 210,
+        "diff": 19,
+        "rate": "1.00x",
+        "score": "85.23%",
+        "status": "2025-08-08 16:16:06",
+        "duration_sec": 3581,
+        "xp": 5534
+    },
+    {
+        "title": "Assassin's Creed Odyssey RMX",
+        "bpm_base": 213,
+        "diff": 19,
+        "rate": "1.00x",
+        "score": "85.41%",
+        "status": "2025-06-29 14:29:55",
+        "duration_sec": 3649,
+        "xp": 6071
+    },
+    {
+        "title": "Excuse My Rudeness, But Could You Please RIP (411 Frenchcore Remix)",
+        "bpm_base": 220,
+        "diff": 19,
+        "rate": "1.00x",
+        "score": "82.07%",
+        "status": "2025-09-17 13:59:31",
+        "duration_sec": 3772,
+        "xp": 5382
+    },
+    {
+        "title": "finorza",
+        "bpm_base": 225,
+        "diff": 19,
+        "rate": "1.00x",
+        "score": "86.54%",
+        "status": "2025-07-08 14:21:39",
+        "duration_sec": 2883,
+        "xp": 5342
+    },
+    {
+        "title": "Get Clean",
+        "bpm_base": 230,
+        "diff": 19,
+        "rate": "1.00x",
+        "score": "85.18%",
+        "status": "2025-06-29 14:38:03",
+        "duration_sec": 2332,
+        "xp": 5367
+    },
+    {
+        "title": "The Forsaken",
+        "bpm_base": 215,
+        "diff": 20,
+        "rate": "1.00x",
+        "score": "86.96%",
+        "status": "2025-10-11 12:49:48",
+        "duration_sec": 5842,
+        "xp": 7241
+    },
+    {
+        "title": "Suspyre",
+        "bpm_base": 216,
+        "diff": 20,
+        "rate": "1.00x",
+        "score": "80.25%",
+        "status": "2025-06-29 15:24:49",
+        "duration_sec": 5906,
+        "xp": 7119
+    },
+    {
+        "title": "City Of Ice",
+        "bpm_base": 222,
+        "diff": 20,
+        "rate": "1.00x",
+        "score": "83.75%",
+        "status": "2025-10-10 15:46:07",
+        "duration_sec": 3652,
+        "xp": 8507
+    },
+    {
+        "title": "Getaway",
+        "bpm_base": 226,
+        "diff": 20,
+        "rate": "1.00x",
+        "score": "84.99%",
+        "status": "2025-10-10 15:34:20",
+        "duration_sec": 3085,
+        "xp": 8420
+    },
+    {
+        "title": "Butterflies & Hurricanes",
+        "bpm_base": 230,
+        "diff": 20,
+        "rate": "1.00x",
+        "score": "86.77%",
+        "status": "2025-10-10 15:58:38",
+        "duration_sec": 2593,
+        "xp": 6373
+    },
+    {
+        "title": "Flash in the Night",
+        "bpm_base": 237,
+        "diff": 20,
+        "rate": "1.00x",
+        "score": "86.11%",
+        "status": "2025-11-28 15:51:33",
+        "duration_sec": 1345,
+        "xp": 9338
+    },
+    {
+        "title": "Wrapped Around Your Finger",
+        "bpm_base": 240,
+        "diff": 20,
+        "rate": "1.00x",
+        "score": "87.32%",
+        "status": "2025-10-10 15:15:51",
+        "duration_sec": 1955,
+        "xp": 6726
+    },
+    {
+        "title": "Whispers in the Dark (KopophobiA RMX)",
+        "bpm_base": 223,
+        "diff": 21,
+        "rate": "1.00x",
+        "score": "87.83%",
+        "status": "2025-10-05 13:39:26",
+        "duration_sec": 5523,
+        "xp": 8368
+    },
+    {
+        "title": "Rohododendron",
+        "bpm_base": 226,
+        "diff": 21,
+        "rate": "1.00x",
+        "score": "81.04%",
+        "status": "2026-02-15 14:04:08",
+        "duration_sec": 3528,
+        "xp": 9991
+    },
+    {
+        "title": "Zetsubou plantation",
+        "bpm_base": 230,
+        "diff": 21,
+        "rate": "1.00x",
+        "score": "82.32%",
+        "status": "2025-12-18 13:16:23",
+        "duration_sec": 2966,
+        "xp": 10413
+    },
+    {
+        "title": "Old Nothing FB 235",
+        "bpm_base": 235,
+        "diff": 21,
+        "rate": "1.00x",
+        "score": "82.94%",
+        "status": "2026-01-23 15:41:57",
+        "duration_sec": 3060,
+        "xp": 9200
+    },
+    {
+        "title": "Battle! (Issac)",
+        "bpm_base": 240,
+        "diff": 21,
+        "rate": "1.00x",
+        "score": "78.88%",
+        "status": "2025-12-18 13:25:25",
+        "duration_sec": 1889,
+        "xp": 9445
+    },
+    {
+        "title": "whole again ~a journey beyond the sky~",
+        "bpm_base": 120,
+        "diff": 12,
+        "rate": "1.50x",
+        "score": "87.03%",
+        "status": "2025-08-07 16:31:00",
+        "duration_sec": 6760,
+        "xp": 1708
+    },
+    {
+        "title": "The Girls",
+        "bpm_base": 132,
+        "diff": 14,
+        "rate": "1.00x",
+        "score": "85.39%",
+        "status": "2025-07-14 14:33:54",
+        "duration_sec": 10609,
+        "xp": 713
+    },
+    {
+        "title": "Cascada Greatest Hits Megamix",
+        "bpm_base": 142,
+        "diff": 15,
+        "rate": "1.00x",
+        "score": "88.56%",
+        "status": "2025-07-10 13:39:32",
+        "duration_sec": 15693,
+        "xp": 1129
+    },
+    {
+        "title": "The Grind",
+        "bpm_base": 150,
+        "diff": 15,
+        "rate": "1.40x",
+        "score": "91.46%",
+        "status": "2025-10-10 16:51:41",
+        "duration_sec": 10728,
+        "xp": 6605
+    },
+    {
+        "title": "Embodiment of Scarlet Devil Touhou 6",
+        "bpm_base": 160,
+        "diff": 16,
+        "rate": "1.00x",
+        "score": "86.61%",
+        "status": "2025-07-30 14:58:41",
+        "duration_sec": 14247,
+        "xp": 2062
+    },
+    {
+        "title": "Eurobeat Meets Sharpnel",
+        "bpm_base": 170,
+        "diff": 17,
+        "rate": "1.20x",
+        "score": "86.21%",
+        "status": "2025-07-04 15:19:24",
+        "duration_sec": 12588,
+        "xp": 6726
+    },
+    {
+        "title": "lost star's tale",
+        "bpm_base": 183,
+        "diff": 18,
+        "rate": "1.00x",
+        "score": "85.04%",
+        "status": "2025-08-27 15:52:00",
+        "duration_sec": 20431,
+        "xp": 3522
+    },
+    {
+        "title": "Liveweapon Sampler Mix",
+        "bpm_base": 203,
+        "diff": 20,
+        "rate": "1.00x",
+        "score": "88.14%",
+        "status": "2025-11-07 17:06:53",
+        "duration_sec": 20274,
+        "xp": 6901
+    },
+    {
+        "title": "shared time ~a warmth beyond my soul~",
+        "bpm_base": 212,
+        "diff": 20,
+        "rate": "1.00x",
+        "score": "84.60%",
+        "status": "2025-08-23 15:08:22",
+        "duration_sec": 12460,
+        "xp": 7736
+    },
+    {
+        "title": "Vector Break",
+        "bpm_base": 115,
+        "diff": 11,
+        "rate": "1.00x",
+        "score": "87.02%",
+        "status": "2025-07-04 15:51:46",
+        "duration_sec": 862,
+        "xp": 32
+    },
+    {
+        "title": "mute (Hard)",
+        "bpm_base": 124,
+        "diff": 11,
+        "rate": "1.00x",
+        "score": "87.86%",
+        "status": "2025-07-04 15:54:51",
+        "duration_sec": 947,
+        "xp": 41
+    },
+    {
+        "title": "GAV RICH",
+        "bpm_base": 134,
+        "diff": 12,
+        "rate": "1.00x",
+        "score": "80.18%",
+        "status": "2025-10-11 07:53:44",
+        "duration_sec": 866,
+        "xp": 1
+    },
+    {
+        "title": "Game Changer",
+        "bpm_base": 151,
+        "diff": 12,
+        "rate": "1.00x",
+        "score": "81.61%",
+        "status": "2025-10-11 07:57:48",
+        "duration_sec": 767,
+        "xp": 1
+    },
+    {
+        "title": "OMG (Anki Remix)",
+        "bpm_base": 188,
+        "diff": 12,
+        "rate": "1.00x",
+        "score": "81.82%",
+        "status": "2025-07-01 15:42:09",
+        "duration_sec": 725,
+        "xp": 1
+    },
+    {
+        "title": "COOL_EXCEPTION (Hard)",
+        "bpm_base": 191,
+        "diff": 12,
+        "rate": "1.00x",
+        "score": "85.63%",
+        "status": "2025-07-18 12:47:46",
+        "duration_sec": 764,
+        "xp": 1
+    },
+    {
+        "title": "Underworld",
+        "bpm_base": 154,
+        "diff": 13,
+        "rate": "1.00x",
+        "score": "74.64%",
+        "status": "2025-08-18 15:38:06",
+        "duration_sec": 1786,
+        "xp": 121
+    },
+    {
+        "title": "LA DI DA",
+        "bpm_base": 164,
+        "diff": 13,
+        "rate": "1.00x",
+        "score": "86.40%",
+        "status": "2025-07-01 15:39:31",
+        "duration_sec": 1516,
+        "xp": 346
+    },
+    {
+        "title": "MONA[xeon]",
+        "bpm_base": 165,
+        "diff": 13,
+        "rate": "1.00x",
+        "score": "68.18%",
+        "status": "2025-08-18 15:41:03",
+        "duration_sec": 1083,
+        "xp": 224
+    },
+    {
+        "title": "f(ake)",
+        "bpm_base": 220,
+        "diff": 13,
+        "rate": "1.00x",
+        "score": "87.56%",
+        "status": "2025-07-04 16:06:05",
+        "duration_sec": 829,
+        "xp": 7
+    },
+    {
+        "title": "Girls Get Down",
+        "bpm_base": 180,
+        "diff": 14,
+        "rate": "1.00x",
+        "score": "82.30%",
+        "status": "2025-07-18 12:50:56",
+        "duration_sec": 965,
+        "xp": 3
+    },
+    {
+        "title": "Project Red Light",
+        "bpm_base": 200,
+        "diff": 14,
+        "rate": "1.00x",
+        "score": "81.91%",
+        "status": "2025-07-22 14:41:04",
+        "duration_sec": 1078,
+        "xp": 3
+    },
+    {
+        "title": "Asymmetric Grooves (CMOD)",
+        "bpm_base": 218,
+        "diff": 14,
+        "rate": "1.00x",
+        "score": "76.41%",
+        "status": "2025-07-22 14:43:32",
+        "duration_sec": 859,
+        "xp": 45
+    },
+    {
+        "title": "HARDEST RENAISSANCE",
+        "bpm_base": 230,
+        "diff": 14,
+        "rate": "1.00x",
+        "score": "78.54%",
+        "status": "2025-10-11 11:03:15",
+        "duration_sec": 1156,
+        "xp": 70
+    },
+    {
+        "title": "Somnidiscotheque",
+        "bpm_base": 230,
+        "diff": 15,
+        "rate": "1.00x",
+        "score": "72.28%",
+        "status": "2025-10-11 10:34:46",
+        "duration_sec": 966,
+        "xp": 17
+    },
+    {
+        "title": "BUNGEE",
+        "bpm_base": 128,
+        "diff": 12,
+        "rate": "1.00x",
+        "score": "83.11%",
+        "status": "2025-07-30 14:29:51",
+        "duration_sec": 1343,
+        "xp": 190
+    },
+    {
+        "title": "Datamania (#TPZREMAKE)",
+        "bpm_base": 135,
+        "diff": 12,
+        "rate": "1.50x",
+        "score": "85.64%",
+        "status": "2025-06-23 15:28:37",
+        "duration_sec": 2292,
+        "xp": 3270
+    },
+    {
+        "title": "Patchwork Eden",
+        "bpm_base": 137,
+        "diff": 12,
+        "rate": "1.00x",
+        "score": "85.58%",
+        "status": "2025-07-07 12:48:44",
+        "duration_sec": 1711,
+        "xp": 242
+    },
+    {
+        "title": "Megitsune",
+        "bpm_base": 142,
+        "diff": 12,
+        "rate": "1.70x",
+        "score": "88.23%",
+        "status": "2026-02-08 13:33:32",
+        "duration_sec": 1552,
+        "xp": 5474
+    },
+    {
+        "title": "another station",
+        "bpm_base": 143,
+        "diff": 12,
+        "rate": "1.00x",
+        "score": "91.75%",
+        "status": "2025-07-07 12:52:29",
+        "duration_sec": 1241,
+        "xp": 113
+    },
+    {
+        "title": "Here We Go",
+        "bpm_base": 150,
+        "diff": 12,
+        "rate": "1.00x",
+        "score": "93.14%",
+        "status": "2025-07-07 13:06:59",
+        "duration_sec": 1510,
+        "xp": 311
+    },
+    {
+        "title": "Happily Ever After (Hard)",
+        "bpm_base": 156,
+        "diff": 12,
+        "rate": "1.00x",
+        "score": "98.16%",
+        "status": "2025-08-27 13:56:34",
+        "duration_sec": 947,
+        "xp": 117
+    },
+    {
+        "title": "Rookie (Hard)",
+        "bpm_base": 164,
+        "diff": 12,
+        "rate": "1.00x",
+        "score": "90.80%",
+        "status": "2025-07-03 12:55:38",
+        "duration_sec": 885,
+        "xp": 124
+    },
+    {
+        "title": "My My My (Hard)",
+        "bpm_base": 175,
+        "diff": 12,
+        "rate": "1.00x",
+        "score": "95.65%",
+        "status": "2025-08-27 14:01:00",
+        "duration_sec": 824,
+        "xp": 44
+    },
+    {
+        "title": "You Will Know Our Names",
+        "bpm_base": 176,
+        "diff": 12,
+        "rate": "1.00x",
+        "score": "80.50%",
+        "status": "2025-08-21 12:02:33",
+        "duration_sec": 836,
+        "xp": 30
+    },
+    {
+        "title": "Release",
+        "bpm_base": 138,
+        "diff": 13,
+        "rate": "1.50x",
+        "score": "87.80%",
+        "status": "2025-07-08 15:48:36",
+        "duration_sec": 3456,
+        "xp": 4574
+    },
+    {
+        "title": "EVERGREEN (Future Gloss Mix)",
+        "bpm_base": 145,
+        "diff": 13,
+        "rate": "1.00x",
+        "score": "89.80%",
+        "status": "2025-07-07 13:18:48",
+        "duration_sec": 2708,
+        "xp": 515
+    },
+    {
+        "title": "Insane Techniques",
+        "bpm_base": 146,
+        "diff": 13,
+        "rate": "1.55x",
+        "score": "94.27%",
+        "status": "2025-11-21 16:36:13",
+        "duration_sec": 2319,
+        "xp": 6046
+    },
+    {
+        "title": "Must Be Dreaming",
+        "bpm_base": 152,
+        "diff": 13,
+        "rate": "1.40x",
+        "score": "86.78%",
+        "status": "2025-07-08 15:57:38",
+        "duration_sec": 1581,
+        "xp": 3843
+    },
+    {
+        "title": "Him",
+        "bpm_base": 158,
+        "diff": 13,
+        "rate": "1.25x",
+        "score": "95.94%",
+        "status": "2025-08-24 13:43:00",
+        "duration_sec": 742,
+        "xp": 985
+    },
+    {
+        "title": "Nihongo Hardbass",
+        "bpm_base": 160,
+        "diff": 13,
+        "rate": "1.35x",
+        "score": "95.74%",
+        "status": "2025-08-17 13:57:57",
+        "duration_sec": 1495,
+        "xp": 3448
+    },
+    {
+        "title": "She Grew Wings",
+        "bpm_base": 165,
+        "diff": 13,
+        "rate": "1.35x",
+        "score": "90.96%",
+        "status": "2025-07-08 16:00:43",
+        "duration_sec": 1670,
+        "xp": 4234
+    },
+    {
+        "title": "Icarus",
+        "bpm_base": 174,
+        "diff": 13,
+        "rate": "1.00x",
+        "score": "90.31%",
+        "status": "2025-07-07 13:40:37",
+        "duration_sec": 1560,
+        "xp": 472
+    },
+    {
+        "title": "Firstmode",
+        "bpm_base": 180,
+        "diff": 13,
+        "rate": "1.00x",
+        "score": "97.36%",
+        "status": "2025-09-17 13:06:21",
+        "duration_sec": 1189,
+        "xp": 564
+    },
+    {
+        "title": "Rintoshite Junjou",
+        "bpm_base": 184,
+        "diff": 13,
+        "rate": "1.00x",
+        "score": "98.20%",
+        "status": "2025-09-17 13:11:03",
+        "duration_sec": 1247,
+        "xp": 311
+    },
+    {
+        "title": "ETERNAL DRAIN (Full Version)",
+        "bpm_base": 149,
+        "diff": 14,
+        "rate": "1.40x",
+        "score": "87.68%",
+        "status": "2025-07-08 16:05:27",
+        "duration_sec": 2376,
+        "xp": 5496
+    },
+    {
+        "title": "FREEDOM DiVE (TEGRA39 Remix)",
+        "bpm_base": 150,
+        "diff": 14,
+        "rate": "1.40x",
+        "score": "88.14%",
+        "status": "2025-07-11 14:43:40",
+        "duration_sec": 3408,
+        "xp": 5227
+    },
+    {
+        "title": "Riding On The Wings (CERiNG Nightcore Edit)",
+        "bpm_base": 156,
+        "diff": 14,
+        "rate": "1.35x",
+        "score": "87.43%",
+        "status": "2025-07-11 14:36:03",
+        "duration_sec": 3272,
+        "xp": 5372
+    },
+    {
+        "title": "Hana Ranman -Flowers- (Full Version)",
+        "bpm_base": 160,
+        "diff": 14,
+        "rate": "1.35x",
+        "score": "87.23%",
+        "status": "2025-07-11 14:47:43",
+        "duration_sec": 1961,
+        "xp": 5001
+    },
+    {
+        "title": "Party At",
+        "bpm_base": 165,
+        "diff": 14,
+        "rate": "1.33x",
+        "score": "86.73%",
+        "status": "2025-07-11 14:52:24",
+        "duration_sec": 1947,
+        "xp": 4819
+    },
+    {
+        "title": "B L A C K - R A Y",
+        "bpm_base": 174,
+        "diff": 14,
+        "rate": "1.25x",
+        "score": "96.16%",
+        "status": "2026-03-01 13:00:06",
+        "duration_sec": 1434,
+        "xp": 4007
+    },
+    {
+        "title": "Time Bomb",
+        "bpm_base": 175,
+        "diff": 14,
+        "rate": "1.20x",
+        "score": "82.95%",
+        "status": "2025-07-08 15:36:29",
+        "duration_sec": 1628,
+        "xp": 3227
+    },
+    {
+        "title": "Blazin'",
+        "bpm_base": 180,
+        "diff": 14,
+        "rate": "1.10x",
+        "score": "85.33%",
+        "status": "2025-08-10 14:12:01",
+        "duration_sec": 1162,
+        "xp": 1737
+    },
+    {
+        "title": "The Waltzer VIP",
+        "bpm_base": 190,
+        "diff": 14,
+        "rate": "1.00x",
+        "score": "95.86%",
+        "status": "2025-07-13 13:50:13",
+        "duration_sec": 1574,
+        "xp": 1310
+    },
+    {
+        "title": "Let me be your cure",
+        "bpm_base": 192,
+        "diff": 14,
+        "rate": "1.00x",
+        "score": "98.11%",
+        "status": "2025-07-15 12:59:36",
+        "duration_sec": 940,
+        "xp": 307
+    },
+    {
+        "title": "Synthesized [Part 5]",
+        "bpm_base": 154,
+        "diff": 15,
+        "rate": "1.25x",
+        "score": "84.55%",
+        "status": "2025-07-13 14:28:16",
+        "duration_sec": 7745,
+        "xp": 5283
+    },
+    {
+        "title": "Mist of Cheat",
+        "bpm_base": 163,
+        "diff": 15,
+        "rate": "1.25x",
+        "score": "88.16%",
+        "status": "2025-07-13 15:02:44",
+        "duration_sec": 3191,
+        "xp": 4908
+    },
+    {
+        "title": "Kitsune Maison Freestyle",
+        "bpm_base": 168,
+        "diff": 15,
+        "rate": "1.25x",
+        "score": "82.12%",
+        "status": "2025-07-13 14:41:01",
+        "duration_sec": 2037,
+        "xp": 4530
+    },
+    {
+        "title": "Helicopter",
+        "bpm_base": 170,
+        "diff": 15,
+        "rate": "1.20x",
+        "score": "86.06%",
+        "status": "2025-07-08 15:32:51",
+        "duration_sec": 2374,
+        "xp": 4559
+    },
+    {
+        "title": "Feelin Sky",
+        "bpm_base": 174,
+        "diff": 15,
+        "rate": "1.20x",
+        "score": "86.37%",
+        "status": "2025-07-13 15:35:08",
+        "duration_sec": 2863,
+        "xp": 3307
+    },
+    {
+        "title": "Baka Mitai (HoloFunk Cover)",
+        "bpm_base": 180,
+        "diff": 15,
+        "rate": "1.15x",
+        "score": "84.08%",
+        "status": "2025-08-10 14:16:33",
+        "duration_sec": 1911,
+        "xp": 4170
+    },
+    {
+        "title": "Duvet (Zenkaso Remix)",
+        "bpm_base": 180,
+        "diff": 15,
+        "rate": "1.15x",
+        "score": "89.43%",
+        "status": "2025-08-15 15:27:32",
+        "duration_sec": 2158,
+        "xp": 3484
+    },
+    {
+        "title": "Gintlemen's Club",
+        "bpm_base": 195,
+        "diff": 15,
+        "rate": "1.15x",
+        "score": "82.68%",
+        "status": "2025-08-15 15:30:44",
+        "duration_sec": 1343,
+        "xp": 3921
+    },
+    {
+        "title": "Flew Far Faster (Original Mix)",
+        "bpm_base": 200,
+        "diff": 15,
+        "rate": "1.00x",
+        "score": "81.62%",
+        "status": "2025-07-17 13:22:03",
+        "duration_sec": 1102,
+        "xp": 1854
+    },
+    {
+        "title": "Boku no yume, mechakuso mugen waki",
+        "bpm_base": 205,
+        "diff": 15,
+        "rate": "1.00x",
+        "score": "96.99%",
+        "status": "2026-02-13 15:58:19",
+        "duration_sec": 1248,
+        "xp": 1561
+    },
+    {
+        "title": "Eurobeat Is Fantastic ~Jubilee~ (Part 1)",
+        "bpm_base": 165,
+        "diff": 16,
+        "rate": "1.30x",
+        "score": "91.04%",
+        "status": "2026-01-11 13:24:04",
+        "duration_sec": 5884,
+        "xp": 7297
+    },
+    {
+        "title": "Hell Hath No Fury",
+        "bpm_base": 170,
+        "diff": 16,
+        "rate": "1.15x",
+        "score": "88.16%",
+        "status": "2025-08-13 15:20:15",
+        "duration_sec": 3531,
+        "xp": 3792
+    },
+    {
+        "title": "The Wind of Gold (Extended)",
+        "bpm_base": 170,
+        "diff": 16,
+        "rate": "1.00x",
+        "score": "78.86%",
+        "status": "2025-07-06 10:22:52",
+        "duration_sec": 3660,
+        "xp": 1715
+    },
+    {
+        "title": "Better Than Gold",
+        "bpm_base": 180,
+        "diff": 16,
+        "rate": "1.10x",
+        "score": "85.24%",
+        "status": "2025-08-13 15:00:25",
+        "duration_sec": 2635,
+        "xp": 3453
+    },
+    {
+        "title": "City of Gold",
+        "bpm_base": 180,
+        "diff": 16,
+        "rate": "1.00x",
+        "score": "77.21%",
+        "status": "2025-07-06 10:29:05",
+        "duration_sec": 3453,
+        "xp": 2014
+    },
+    {
+        "title": "Magenta",
+        "bpm_base": 190,
+        "diff": 16,
+        "rate": "1.15x",
+        "score": "83.19%",
+        "status": "2025-08-17 15:06:04",
+        "duration_sec": 2623,
+        "xp": 4654
+    },
+    {
+        "title": "Time to Make History Akira Yamaoka Remix",
+        "bpm_base": 190,
+        "diff": 16,
+        "rate": "1.15x",
+        "score": "85.70%",
+        "status": "2025-08-17 15:12:01",
+        "duration_sec": 2892,
+        "xp": 4805
+    },
+    {
+        "title": "Queen of the Night Sparrow (Hard)",
+        "bpm_base": 200,
+        "diff": 16,
+        "rate": "1.00x",
+        "score": "88.68%",
+        "status": "2025-07-22 13:56:56",
+        "duration_sec": 2728,
+        "xp": 1818
+    },
+    {
+        "title": "Liquid Bangers Mixtape Summer 2010 Mix",
+        "bpm_base": 174,
+        "diff": 17,
+        "rate": "1.10x",
+        "score": "88.27%",
+        "status": "2025-08-23 13:20:04",
+        "duration_sec": 8166,
+        "xp": 4819
+    },
+    {
+        "title": "Monody",
+        "bpm_base": 180,
+        "diff": 17,
+        "rate": "1.20x",
+        "score": "87.87%",
+        "status": "2026-02-13 16:16:09",
+        "duration_sec": 5321,
+        "xp": 6665
+    },
+    {
+        "title": "No Church In The Wild",
+        "bpm_base": 186,
+        "diff": 17,
+        "rate": "1.05x",
+        "score": "81.60%",
+        "status": "2025-08-10 14:26:01",
+        "duration_sec": 2986,
+        "xp": 3926
+    },
+    {
+        "title": "Intergalactic v2 (Part 1)",
+        "bpm_base": 190,
+        "diff": 17,
+        "rate": "1.00x",
+        "score": "76.21%",
+        "status": "2025-08-01 14:01:54",
+        "duration_sec": 4869,
+        "xp": 2929
+    },
+    {
+        "title": "Helikopter",
+        "bpm_base": 192,
+        "diff": 17,
+        "rate": "1.00x",
+        "score": "90.00%",
+        "status": "2025-07-08 15:42:18",
+        "duration_sec": 2560,
+        "xp": 2934
+    },
+    {
+        "title": "Omnipresent FB FP 182",
+        "bpm_base": 182,
+        "diff": 18,
+        "rate": "1.00x",
+        "score": "84.33%",
+        "status": "2025-08-12 15:10:46",
+        "duration_sec": 9522,
+        "xp": 4625
+    },
+    {
+        "title": "What the F",
+        "bpm_base": 195,
+        "diff": 18,
+        "rate": "1.00x",
+        "score": "76.05%",
+        "status": "2025-08-01 14:15:55",
+        "duration_sec": 6912,
+        "xp": 4660
+    },
+    {
+        "title": "Evening (Bereave, Blood, Black) [Restep]",
+        "bpm_base": 198,
+        "diff": 18,
+        "rate": "1.00x",
+        "score": "90.25%",
+        "status": "2025-08-23 13:32:32",
+        "duration_sec": 4638,
+        "xp": 3742
+    },
+    {
+        "title": "Quantum Leap",
+        "bpm_base": 196,
+        "diff": 19,
+        "rate": "1.00x",
+        "score": "86.60%",
+        "status": "2025-08-19 16:20:25",
+        "duration_sec": 7284,
+        "xp": 5369
+    },
+    {
+        "title": "To BrandNewDeadline",
+        "bpm_base": 210,
+        "diff": 16,
+        "rate": "1.00x",
+        "score": "92.27%",
+        "status": "2025-06-26 13:59:46",
+        "duration_sec": 1161,
+        "xp": 2063
+    },
+    {
+        "title": "Cthugha",
+        "bpm_base": 213,
+        "diff": 16,
+        "rate": "1.00x",
+        "score": "91.28%",
+        "status": "2025-06-26 13:49:44",
+        "duration_sec": 1558,
+        "xp": 1710
+    },
+    {
+        "title": "Russia Bitch (Restep)",
+        "bpm_base": 200,
+        "diff": 17,
+        "rate": "1.00x",
+        "score": "92.16%",
+        "status": "2025-06-26 13:53:38",
+        "duration_sec": 2165,
+        "xp": 3060
+    },
+    {
+        "title": "Dark Avatara Beam",
+        "bpm_base": 205,
+        "diff": 17,
+        "rate": "1.00x",
+        "score": "89.38%",
+        "status": "2025-06-26 13:56:51",
+        "duration_sec": 1547,
+        "xp": 4265
+    },
+    {
+        "title": "Lovely One Day",
+        "bpm_base": 211,
+        "diff": 17,
+        "rate": "1.00x",
+        "score": "86.07%",
+        "status": "2025-06-26 14:13:04",
+        "duration_sec": 1509,
+        "xp": 4338
+    },
+    {
+        "title": "Panic Pandemic",
+        "bpm_base": 220,
+        "diff": 17,
+        "rate": "1.00x",
+        "score": "87.09%",
+        "status": "2025-06-29 14:56:29",
+        "duration_sec": 1427,
+        "xp": 2630
+    },
+    {
+        "title": "Paranoia Performance",
+        "bpm_base": 223,
+        "diff": 17,
+        "rate": "1.00x",
+        "score": "86.96%",
+        "status": "2025-06-29 14:59:37",
+        "duration_sec": 1439,
+        "xp": 4426
+    },
+    {
+        "title": "Emotional Skyscraper ~ World's End",
+        "bpm_base": 200,
+        "diff": 18,
+        "rate": "1.00x",
+        "score": "87.04%",
+        "status": "2025-07-11 16:12:50",
+        "duration_sec": 4140,
+        "xp": 4244
+    },
+    {
+        "title": "Releasing the Shadow",
+        "bpm_base": 200,
+        "diff": 18,
+        "rate": "1.00x",
+        "score": "80.50%",
+        "status": "2025-08-05 15:12:54",
+        "duration_sec": 4206,
+        "xp": 4431
+    },
+    {
+        "title": "Ba Men Er Kai Kai",
+        "bpm_base": 210,
+        "diff": 18,
+        "rate": "1.00x",
+        "score": "85.40%",
+        "status": "2025-07-11 15:57:12",
+        "duration_sec": 2275,
+        "xp": 4287
+    },
+    {
+        "title": "Tayru Mu",
+        "bpm_base": 212,
+        "diff": 18,
+        "rate": "1.00x",
+        "score": "86.77%",
+        "status": "2025-08-10 16:22:42",
+        "duration_sec": 2759,
+        "xp": 4617
+    },
+    {
+        "title": "Garaventae",
+        "bpm_base": 221,
+        "diff": 18,
+        "rate": "1.00x",
+        "score": "84.54%",
+        "status": "2025-06-29 15:02:55",
+        "duration_sec": 1519,
+        "xp": 5295
+    },
+    {
+        "title": "Sentinel",
+        "bpm_base": 231,
+        "diff": 18,
+        "rate": "1.00x",
+        "score": "85.23%",
+        "status": "2025-07-11 15:41:06",
+        "duration_sec": 1587,
+        "xp": 4472
+    },
+    {
+        "title": "Baroke Bit",
+        "bpm_base": 232,
+        "diff": 18,
+        "rate": "1.00x",
+        "score": "89.75%",
+        "status": "2025-07-11 14:12:52",
+        "duration_sec": 1025,
+        "xp": 3242
+    },
+    {
+        "title": "Inverted Minds",
+        "bpm_base": 208,
+        "diff": 19,
+        "rate": "1.00x",
+        "score": "79.78%",
+        "status": "2025-08-08 15:44:53",
+        "duration_sec": 4699,
+        "xp": 6749
+    },
+    {
+        "title": "Muteki no Soldier",
+        "bpm_base": 210,
+        "diff": 19,
+        "rate": "1.00x",
+        "score": "86.57%",
+        "status": "2025-08-08 15:59:00",
+        "duration_sec": 3720,
+        "xp": 6017
+    },
+    {
+        "title": "SURVIVE",
+        "bpm_base": 220,
+        "diff": 19,
+        "rate": "1.00x",
+        "score": "81.83%",
+        "status": "2025-08-08 15:28:50",
+        "duration_sec": 3437,
+        "xp": 5273
+    },
+    {
+        "title": "ReviveR",
+        "bpm_base": 238,
+        "diff": 19,
+        "rate": "1.00x",
+        "score": "84.33%",
+        "status": "2025-10-03 16:52:07",
+        "duration_sec": 1611,
+        "xp": 6382
+    },
+    {
+        "title": "What I've Done",
+        "bpm_base": 240,
+        "diff": 19,
+        "rate": "1.00x",
+        "score": "86.99%",
+        "status": "2025-10-03 16:47:24",
+        "duration_sec": 1774,
+        "xp": 5895
+    },
+    {
+        "title": "GLORIA",
+        "bpm_base": 245,
+        "diff": 19,
+        "rate": "1.00x",
+        "score": "84.63%",
+        "status": "2025-06-29 14:41:34",
+        "duration_sec": 1288,
+        "xp": 4998
+    },
+    {
+        "title": "HAUNT Sampler Mix FP 200",
+        "bpm_base": 200,
+        "diff": 20,
+        "rate": "1.00x",
+        "score": "88.01%",
+        "status": "2025-08-10 15:32:23",
+        "duration_sec": 10170,
+        "xp": 7243
+    },
+    {
+        "title": "Bcrux",
+        "bpm_base": 222,
+        "diff": 20,
+        "rate": "1.00x",
+        "score": "86.06%",
+        "status": "2025-11-01 16:41:50",
+        "duration_sec": 3884,
+        "xp": 8201
+    },
+    {
+        "title": "Cold Heart (PNAU Remix)",
+        "bpm_base": 232,
+        "diff": 20,
+        "rate": "1.00x",
+        "score": "84.56%",
+        "status": "2025-11-14 16:23:20",
+        "duration_sec": 2626,
+        "xp": 8835
+    },
+    {
+        "title": "BROKEN MY HEART",
+        "bpm_base": 240,
+        "diff": 20,
+        "rate": "1.00x",
+        "score": "86.60%",
+        "status": "2025-10-05 13:30:24",
+        "duration_sec": 1373,
+        "xp": 7910
+    },
+    {
+        "title": "The Sixth Circle - Heresy FP 213",
+        "bpm_base": 213,
+        "diff": 21,
+        "rate": "1.00x",
+        "score": "85.59%",
+        "status": "2025-10-11 14:26:18",
+        "duration_sec": 8956,
+        "xp": 9240
+    },
+    {
+        "title": "The Seventh Circle - Violence FP 223",
+        "bpm_base": 223,
+        "diff": 22,
+        "rate": "1.00x",
+        "score": "82.77%",
+        "status": "2026-02-19 15:15:47",
+        "duration_sec": 9252,
+        "xp": 11683
+    },
+    {
+        "title": "WORLD OF FANTASY",
+        "bpm_base": 128,
+        "diff": 14,
+        "rate": "1.20x",
+        "score": "80.24%",
+        "status": "2025-07-26 14:25:41",
+        "duration_sec": 17889,
+        "xp": 1282
+    },
+    {
+        "title": "Dancemania presents... E-Rotic Megamix",
+        "bpm_base": 147,
+        "diff": 16,
+        "rate": "1.00x",
+        "score": "76.16%",
+        "status": "2025-09-07 16:25:42",
+        "duration_sec": 36024,
+        "xp": 2241
+    },
+    {
+        "title": "Exospace Expedition",
+        "bpm_base": 155,
+        "diff": 17,
+        "rate": "1.00x",
+        "score": "89.25%",
+        "status": "2025-08-11 13:35:57",
+        "duration_sec": 29258,
+        "xp": 3133
+    },
+    {
+        "title": "TIMELESS BEATZ ~Breakbeats To Chill To~",
+        "bpm_base": 170,
+        "diff": 18,
+        "rate": "1.00x",
+        "score": "82.90%",
+        "status": "2025-09-01 15:56:55",
+        "duration_sec": 33004,
+        "xp": 4523
+    },
+    {
+        "title": "Camellia 2hrs+ 175BPM mix",
+        "bpm_base": 175,
+        "diff": 19,
+        "rate": "1.00x",
+        "score": "88.29%",
+        "status": "2025-09-10 16:27:20",
+        "duration_sec": 65454,
+        "xp": 4146
+    },
+    {
+        "title": "Sick Music for Stamina 2 FB 180",
+        "bpm_base": 180,
+        "diff": 19,
+        "rate": "1.00x",
+        "score": "83.86%",
+        "status": "2025-09-09 16:09:48",
+        "duration_sec": 33741,
+        "xp": 6496
+    },
+    {
+        "title": "Dance Of The Transhumans",
+        "bpm_base": 190,
+        "diff": 20,
+        "rate": "1.00x",
+        "score": "81.81%",
+        "status": "2025-09-19 15:50:37",
+        "duration_sec": 38545,
+        "xp": 8698
+    },
+    {
+        "title": "Double Cheese With Added Cheese",
+        "bpm_base": 208,
+        "diff": 21,
+        "rate": "1.00x",
+        "score": "83.77%",
+        "status": "2025-09-05 18:07:35",
+        "duration_sec": 39258,
+        "xp": 10900
+    },
+    {
+        "title": "untitled djkurara mix FP 215",
+        "bpm_base": 215,
+        "diff": 22,
+        "rate": "1.00x",
+        "score": "89.12%",
+        "status": "2025-11-01 17:56:55",
+        "duration_sec": 36625,
+        "xp": 12492
+    },
+    {
+        "title": "A (CMOD)",
+        "bpm_base": 191,
+        "diff": 13,
+        "rate": "1.00x",
+        "score": "84.69%",
+        "status": "2025-07-04 16:08:37",
+        "duration_sec": 577,
+        "xp": 15
+    },
+    {
+        "title": "Scenic beauty",
+        "bpm_base": 250,
+        "diff": 20,
+        "rate": "1.00x",
+        "score": "87.28%",
+        "status": "2025-11-28 15:56:59",
+        "duration_sec": 1232,
+        "xp": 6137
+    },
+    {
+        "title": "The Spirit Chaser (Medium)",
+        "bpm_base": 256,
+        "diff": 20,
+        "rate": "1.00x",
+        "score": "90.87%",
+        "status": "2025-11-28 16:01:13",
+        "duration_sec": 1831,
+        "xp": 5123
+    },
+    {
+        "title": "Phi (takehirotei epimorphism remix)",
+        "bpm_base": 264,
+        "diff": 20,
+        "rate": "1.00x",
+        "score": "89.08%",
+        "status": "2025-11-28 16:07:13",
+        "duration_sec": 1469,
+        "xp": 3655
+    },
+    {
+        "title": "Helix",
+        "bpm_base": 260,
+        "diff": 21,
+        "rate": "1.00x",
+        "score": "87.03%",
+        "status": "2025-11-28 16:16:39",
+        "duration_sec": 1328,
+        "xp": 8003
+    },
+    {
+        "title": "In The Dark (Hard) FB 270",
+        "bpm_base": 270,
+        "diff": 21,
+        "rate": "1.00x",
+        "score": "77.30%",
+        "status": "2025-12-21 15:14:14",
+        "duration_sec": 1066,
+        "xp": 5233
+    },
+    {
+        "title": "Girls Night (Hard)",
+        "bpm_base": 128,
+        "diff": 13,
+        "rate": "1.25x",
+        "score": "87.37%",
+        "status": "2025-07-09 13:40:07",
+        "duration_sec": 7759,
+        "xp": 1515
+    },
+    {
+        "title": "What's Happenin' Forum?",
+        "bpm_base": 136,
+        "diff": 14,
+        "rate": "1.60x",
+        "score": "88.84%",
+        "status": "2025-11-28 17:00:23",
+        "duration_sec": 11687,
+        "xp": 11218
+    },
+    {
+        "title": "Trails of Slow Stream",
+        "bpm_base": 140,
+        "diff": 15,
+        "rate": "1.00x",
+        "score": "79.52%",
+        "status": "2025-07-14 15:07:40",
+        "duration_sec": 9611,
+        "xp": 1350
+    },
+    {
+        "title": "or not to {b}e",
+        "bpm_base": 153,
+        "diff": 16,
+        "rate": "1.15x",
+        "score": "91.54%",
+        "status": "2025-08-19 14:35:27",
+        "duration_sec": 14531,
+        "xp": 3933
+    },
+    {
+        "title": "Makoto Essential Mix",
+        "bpm_base": 174,
+        "diff": 17,
+        "rate": "1.10x",
+        "score": "83.48%",
+        "status": "2025-07-22 15:19:37",
+        "duration_sec": 10653,
+        "xp": 4659
+    },
+    {
+        "title": "Upon the Wanderer's Path",
+        "bpm_base": 180,
+        "diff": 18,
+        "rate": "1.00x",
+        "score": "79.95%",
+        "status": "2025-09-24 14:10:30",
+        "duration_sec": 12077,
+        "xp": 4184
+    },
+    {
+        "title": "XXXV",
+        "bpm_base": 195,
+        "diff": 19,
+        "rate": "1.00x",
+        "score": "86.37%",
+        "status": "2025-07-18 13:13:52",
+        "duration_sec": 13741,
+        "xp": 4899
+    },
+    {
+        "title": "RS Ultralaiza XX",
+        "bpm_base": 200,
+        "diff": 20,
+        "rate": "1.00x",
+        "score": "82.34%",
+        "status": "2025-07-22 14:18:12",
+        "duration_sec": 12981,
+        "xp": 7458
+    },
+    {
+        "title": "mnemonic (Hard)",
+        "bpm_base": 135,
+        "diff": 11,
+        "rate": "1.00x",
+        "score": "66.46%",
+        "status": "2025-08-18 15:30:20",
+        "duration_sec": 712,
+        "xp": 1
+    },
+    {
+        "title": "GDFR",
+        "bpm_base": 146,
+        "diff": 11,
+        "rate": "1.00x",
+        "score": "94.88%",
+        "status": "2025-11-09 13:39:21",
+        "duration_sec": 616,
+        "xp": 1
+    },
+    {
+        "title": "XIII",
+        "bpm_base": 164,
+        "diff": 12,
+        "rate": "1.00x",
+        "score": "86.34%",
+        "status": "2025-09-09 16:38:19",
+        "duration_sec": 594,
+        "xp": 1
+    },
+    {
+        "title": "The End (Feat. BABYMETAL) (CMOD)",
+        "bpm_base": 220,
+        "diff": 12,
+        "rate": "1.00x",
+        "score": "80.76%",
+        "status": "2025-09-09 16:40:57",
+        "duration_sec": 755,
+        "xp": 9
+    },
+    {
+        "title": "Say So",
+        "bpm_base": 222,
+        "diff": 12,
+        "rate": "1.00x",
+        "score": "85.97%",
+        "status": "2025-09-09 16:43:23",
+        "duration_sec": 674,
+        "xp": 11
+    },
+    {
+        "title": "Regeneraxion",
+        "bpm_base": 175,
+        "diff": 13,
+        "rate": "1.00x",
+        "score": "89.33%",
+        "status": "2025-09-09 16:48:54",
+        "duration_sec": 817,
+        "xp": 1
+    },
+    {
+        "title": "No Tears Left to Cry (CMOD)",
+        "bpm_base": 244,
+        "diff": 13,
+        "rate": "1.00x",
+        "score": "70.89%",
+        "status": "2025-10-11 11:07:56",
+        "duration_sec": 675,
+        "xp": 85
+    },
+    {
+        "title": "FestA of PandemoniuM (CMOD)",
+        "bpm_base": 160,
+        "diff": 14,
+        "rate": "1.00x",
+        "score": "83.18%",
+        "status": "2025-10-11 11:10:52",
+        "duration_sec": 965,
+        "xp": 2
+    },
+    {
+        "title": "Jalaana",
+        "bpm_base": 216,
+        "diff": 14,
+        "rate": "1.00x",
+        "score": "85.27%",
+        "status": "2025-09-09 16:52:47",
+        "duration_sec": 1075,
+        "xp": 166
+    }
+]

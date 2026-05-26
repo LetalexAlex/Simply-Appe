@@ -89,6 +89,9 @@ local af = Def.ActorFrame{
 	LoadActor("./Leaderboard.lua"),
 
 	LoadActor("./SongSearch/default.lua"),
+
+	-- SRPG9 Companion overlay
+	LoadActor("./SRPG9.lua"),
 }
 
 return af
